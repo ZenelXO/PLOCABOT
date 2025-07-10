@@ -51,9 +51,3 @@ def labels_obtainer(dataDict):
     for label, value in dataDict.items():
         labelsResult.append(f"{label} ({value})")
     return labelsResult
-
-
-
-
-# if __name__ == "__main__":
-#     generate_chart( {'Industrial Ship': 10, 'Cruise Ship': 0, 'Sailboat': 0, 'Human Powered Boat': 0, 'Motorboat': 5} )

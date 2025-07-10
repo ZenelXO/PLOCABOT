@@ -43,7 +43,6 @@ powershell -Command "Start-Process ollama -ArgumentList 'serve' -NoNewWindow"
 REM Puedes quitar la siguiente línea si prefieres iniciarlo manualmente
 REM O puedes cambiarlo para que se ejecute en MAC usando: #OLLAMA_HOST=localhost:11500 ollama serve
 start ollama pull llama3.1:8b
-start /B $env:OLLAMA_HOST="localhost:11500"; ollama serve
 
 echo -- Instalacion completada. El entorno esta listo para usarse.
 pause

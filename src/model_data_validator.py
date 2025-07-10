@@ -34,7 +34,6 @@ def generar_respuesta(pregunta, contexto, what_answer):
     )
 
     response = ollama.chat(
-        #model = "llama3.2:3b"
         model="llama3.1:8b",
         messages=[
             {"role": "user", "content": prompt}

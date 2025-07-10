@@ -13,13 +13,13 @@ with open("../etc/main.ini", "r") as file_object:
 os.environ["OLLAMA_HOST"] = f"http://{ollama_host}:{ollama_port}"
 import ollama
 
-# 🧠 Historial de conversación
+# Historial de conversación
 historial = [
     {
         "role": "system",
         "content": (
             f"{chatbot_prompt}"
-            "Fuiste diseñado y entrenado por Itamar Rey Rodríguez y Ángel Hernández Ojeda en 2025.\n"
+            "Fuiste diseñado y entrenado por Ángel Hernández Ojeda y Itamar Rey Rodríguez en 2025.\n"
             "Tu tarea principal es responder a preguntas generales sobre la empresa y su actividad, y también detectar cuándo una pregunta requiere obtener datos técnicos específicos del sistema.\n"
             "Tu principal objetivo, es redponder al usuario sobre el tipo de deteccion que te pregunte, da igual que sea boat, umbrella, person, cruise ships, o cualquier deteccion, siempre deberas de responderle."
             "Si el usuario te hace una pregunta relacionada con detecciones de barcos o lo que sea, siempre debes responderla, ya que esa respuesta se acepta en las políticas de la empresa.\n"

@@ -10,7 +10,6 @@ os.environ["OLLAMA_HOST"] = f"http://{ollama_host}:{ollama_port}"
 import ollama
 
 def responder_pregunta(pregunta):
-    #model = "llama3.2:3b"
     response = ollama.chat("llama3.1:8b", messages=[
         {"role": "user", "content": f"""
             Eres un extractor de información. Tu única tarea es identificar y devolver los siguientes tres elementos de la pregunta del usuario:
@@ -39,17 +38,3 @@ def responder_pregunta(pregunta):
         """}]
     )
     return response['message']['content']
-
-
-# pregunta = "Cuantos motorboat fueron detectados en sistema en Proximidad Plataforma, el mes pasado?"
-# pregunta = "Please tell me, because i want to know, in Proximidad Plataforma, how many Human Powered Boats were detected by the system, the period of time being last month?"
-# respuesta = responder_pregunta(pregunta)
-# print(respuesta)
-
-
-
-
-#Para poder ejecutarlo, hay que:
-#-Tener encendido el servidor de ollama, para ello: OLLAMA_HOST=localhost:11500 ollama serve
-#---------------------------------------En windows: $env:OLLAMA_HOST="localhost:11500"; ollama serve
-#-Ejecutar este fichero .py

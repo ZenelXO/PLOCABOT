@@ -89,7 +89,6 @@ def new_chatbot():
     if not userQuestion:
         return jsonify({"respuesta": "No recibí ninguna pregunta"}), 400
 
-    #SI NO TENEMOS EL MONGO INSTALADO COMENTAR DESDE AQUI-------------------------------------------------------
     if conversation_id:
         try:
             conversation_id = ObjectId(conversation_id)
@@ -108,7 +107,6 @@ def new_chatbot():
         conversation_id = mongo_conversations.insert_one(nueva_conversacion).inserted_id
 
     guardar_mensaje_en_conversacion(conversation_id, "user", userQuestion)
-    #HASTA AQUI--------------------------------------------------------------------------------------------------
     respuesta = start_conversation(userQuestion)
     print("Respuesta generada:", respuesta)
 
@@ -128,9 +126,7 @@ def new_chatbot():
             f"<br><br><div class=\"entorno-confirm\">{detections_answer}</div>"
         )
     
-    #Y ESTO TAMBIEN----------------------------------------------------------------------------------------------
     guardar_mensaje_en_conversacion(conversation_id, "bot", respuesta)
-    #Y ESTO TAMBIEN----------------------------------------------------------------------------------------------
 
     return jsonify({
         "respuesta": respuesta,

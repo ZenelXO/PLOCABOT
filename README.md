@@ -1,7 +1,7 @@
 
-# 🧠 SmartCoastBot: Asistente Conversacional para Vigilancia Marítima
+# 🧠 PLOCABOT: Asistente Conversacional para Vigilancia Marítima
 
-Este proyecto consiste en un asistente conversacional inteligente diseñado para interactuar con usuarios en el ámbito de la vigilancia marítima, permitiendo el acceso natural a datos de detección, estadísticas gráficas y funcionalidades específicas del sistema Smart Coast Surveillance.
+Este proyecto consiste en un asistente conversacional inteligente diseñado por Ángel Hernández Ojeda e Itamar Rey Rodríguez en colaboración con la empresa PLOCAN (Plataforma Oceánica de Canarias), para interactuar con usuarios en el ámbito de la vigilancia marítima, permitiendo el acceso natural a datos de detección, estadísticas gráficas y funcionalidades específicas del sistema Smart Coast Surveillance.
 
 ---
 
@@ -31,6 +31,38 @@ Ejecuta el archivo `setup_chatbot.bat` con doble clic o desde terminal.
 - Python 3.9 o superior
 - miniconda
 - ollama
+
+---
+
+## 🏁 Cómo ejecutar el proyecto
+
+1. **Ejecutar el script de configuración**  
+   En función de tu sistema operativo, deberás ejecutar uno de los siguientes scripts:
+   - En **Windows**: `setup_chatbot.bat`
+   - En **Linux/Mac**: `setup_chatbot.sh`
+
+2. **Activar el entorno virtual (Miniconda)**  
+   ```bash
+   conda activate plocabot_environment
+   ```
+
+3. **Inicializar los servidores**  
+   Abre **dos terminales independientes**:
+
+   - Terminal 1 (backend Flask):
+     ```bash
+     cd src/
+     python main_server.py
+     ```
+
+   - Terminal 2 (modelo con Ollama):
+     ```bash
+     - En **windows**: `$env:OLLAMA_HOST="localhost:11500"; ollama serve`
+     - En **Linux/Mac**: `OLLAMA_HOST=localhost:11500 ollama serve`
+     ```
+
+4. **Abrir la interfaz gráfica**  
+   Abre el archivo `login.html` en tu navegador desde la carpeta `plocabot_ui/`.
 
 ---
 
@@ -74,8 +106,8 @@ Este archivo contiene las configuraciones necesarias para que el frontend se con
 
 - Modo claro/oscuro
 - Interacción por voz (grabación, transcripción y síntesis)
-- Temas personalizables
-- Gestión de usuarios con identificación en `localStorage`
+- Temas claro / oscuro
+- Gestión de usuarios con identificación en la base de datos de MongoDB
 
 ---
 
@@ -85,4 +117,3 @@ Los bancos de preguntas utilizados para validar el chatbot se encuentran en la c
 - `questions-dataset.json`
 - `intention-dataset.json`
 - `keywords-dataset.json`
-

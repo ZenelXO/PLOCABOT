@@ -104,9 +104,8 @@ Este archivo contiene las configuraciones necesarias para que el frontend se con
 
 ## 🎤 Funciones adicionales
 
-- Modo claro/oscuro
+- Modo claro / oscuro
 - Interacción por voz (grabación, transcripción y síntesis)
-- Temas claro / oscuro
 - Gestión de usuarios con identificación en la base de datos de MongoDB
 
 ---

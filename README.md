@@ -57,8 +57,8 @@ Ejecuta el archivo `setup_chatbot.bat` con doble clic o desde terminal.
 
    - Terminal 2 (modelo con Ollama):
      ```bash
-     - En **windows**: `$env:OLLAMA_HOST="localhost:11500"; ollama serve`
-     - En **Linux/Mac**: `OLLAMA_HOST=localhost:11500 ollama serve`
+     - Windows: `$env:OLLAMA_HOST="localhost:11500"; ollama serve`
+     - Linux/Mac: `OLLAMA_HOST=localhost:11500 ollama serve`
      ```
 
 4. **Abrir la interfaz gráfica**  
@@ -104,9 +104,8 @@ Este archivo contiene las configuraciones necesarias para que el frontend se con
 
 ## 🎤 Funciones adicionales
 
-- Modo claro/oscuro
+- Modo claro / oscuro
 - Interacción por voz (grabación, transcripción y síntesis)
-- Temas claro / oscuro
 - Gestión de usuarios con identificación en la base de datos de MongoDB
 
 ---

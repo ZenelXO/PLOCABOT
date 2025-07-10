@@ -57,8 +57,8 @@ Ejecuta el archivo `setup_chatbot.bat` con doble clic o desde terminal.
 
    - Terminal 2 (modelo con Ollama):
      ```bash
-     - En **windows**: `$env:OLLAMA_HOST="localhost:11500"; ollama serve`
-     - En **Linux/Mac**: `OLLAMA_HOST=localhost:11500 ollama serve`
+     - Windows: `$env:OLLAMA_HOST="localhost:11500"; ollama serve`
+     - Linux/Mac: `OLLAMA_HOST=localhost:11500 ollama serve`
      ```
 
 4. **Abrir la interfaz gráfica**  

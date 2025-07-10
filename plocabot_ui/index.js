@@ -108,6 +108,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("historialContainer").style.color = "black";
     document.getElementById("user-input").style.backgroundColor = "#e6e6e6";
     document.getElementById("user-input").style.color = "black";
+    document.querySelector(".buttonsExtra").style.backgroundColor = "#e6e6e6";
     document.getElementById("newChatMain").style.color = "black";
     document.getElementById("newChat").style.color = "black";
     document.getElementById("searchicon").style.color = "black";
@@ -126,13 +127,13 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("chat-form").style.color = "#e0e0e0";
     document.getElementById("user-input").style.color = "#ffffff";
     document.getElementById("user-input").style.backgroundColor = "#2a2a2a";
+    document.querySelector(".buttonsExtra").style.backgroundColor = "rgb(42, 42, 42)";
 
     document.querySelector("#historialContainer").style.background = "linear-gradient(210deg, #1e1e1e, #2c2c2c, #1e1e1e)";
     document.getElementById("historialContainer").style.color = "#f0f0f0";
     document.getElementById("newChatMain").style.color = "#f0f0f0";
     document.getElementById("newChat").style.color = "#f0f0f0";
     document.getElementById("searchicon").style.color = "#f0f0f0";
-    document.querySelector(".buttonsExtra").style.background = "#1e1e1e";
 
     document.querySelectorAll('.message.bot .bubble').forEach(bubble => {
       bubble.style.backgroundColor = "#2e2e2e";

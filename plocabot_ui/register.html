@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title id="dynamic-title">Cargando...</title>
+  <link rel="icon" href="" id="dynamic-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="register.css" />
+</head>
+
+<body>
+  <div class="body-container">
+    <div class="infoEmpresa">
+      <h1 id="dynamic-title-register"></h1>
+      <p>Accede a tu cuenta o regístrate, para comenzar a interactuar con nuestro asistente inteligente.</p>
+      <img id="busisness_mid_logo" alt="Icono de Chatbot">
+      <img id="busisness_footer" alt="Footer Chatbot">
+    </div>
+    
+    <div class="auth-container">
+        <h2>Registrarse</h2>
+        <form id="register-form">
+            <input type="email" id="register-user" placeholder="Correo electrónico" required />
+            <input type="password" id="register-pass1" placeholder="Contraseña" required
+                   pattern="(?=.*[A-Z]).{8,}"
+                   title="La contraseña debe tener al menos 8 caracteres y una mayúscula" />
+            <input type="password" id="register-pass2" placeholder="Repita la contraseña" required />
+            <button type="submit">Registrar</button>
+        </form>
+        <div class="registerLink">
+          ¿Ya tienes cuenta?
+          <a href="login.html" class="registerHref">Inicia Sesión aquí</a>
+        </div>
+      
+      <script>
+        document.getElementById("register-form").addEventListener("submit", async (e) => {
+          e.preventDefault();
+
+          const email = document.getElementById('register-user').value;
+          const pass1 = document.getElementById('register-pass1').value;
+          const pass2 = document.getElementById('register-pass2').value;
+
+          const passwordRegex = /^(?=.*[A-Z]).{8,}$/;
+
+          if (!passwordRegex.test(pass1)) {
+            alert("❌ La contraseña debe tener al menos 8 caracteres y una mayúscula.");
+            return;
+          }
+
+          if (pass1 !== pass2) {
+            alert('❌ Las contraseñas no coinciden.');
+            return;
+          }
+
+          const res = await fetch("http://127.0.0.1:5000/register", {
+            method: "POST",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify({
+              username: email,
+              password: pass1,
+            })
+          });
+
+          const data = await res.json();
+          if (res.ok) {
+            alert("✅ Registro exitoso, ya puedes iniciar sesión");
+            window.location.href = "login.html";
+          } else {
+            alert("❌ " + data.message);
+          }
+        });
+      </script>
+    </div>
+  </div>
+
+  <script>
+    // Esta parte parece estar copiada de login.html, puedes eliminarla si no tienes el formulario "login-form" aquí.
+    document.getElementById("login-form")?.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const res = await fetch("http://127.0.0.1:5000/login", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({
+          username: document.getElementById("login-user").value,
+          password: document.getElementById("login-pass").value,
+        })
+      });
+      const data = await res.json();
+      if (res.ok) {
+        localStorage.setItem("userId", data.userId);
+        window.location.href = "index.html";
+      } else {
+        alert("❌ " + data.message);
+      }
+    });
+  </script>
+
+  <script src="config.js"></script>
+  <script>
+    window.onload = () => {
+      document.title = "Register" + " - " + CONFIG.botName;
+      document.getElementById("dynamic-icon").href = CONFIG.iconPath;
+      document.getElementById("dynamic-title-register").innerHTML = CONFIG.registerTitle;
+      document.getElementById("busisness_mid_logo").src = CONFIG.iconRegisterPath;
+      document.getElementById("busisness_footer").src = CONFIG.iconRegisterFooterPath;
+      document.body.style.backgroundRepeat = "no-repeat";
+      document.body.style.backgroundSize = "cover";
+      document.body.style.backgroundPosition = "center";
+    };
+  </script>
+</body>
+</html>

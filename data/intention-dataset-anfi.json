@@ -1,0 +1,302 @@
+[
+  {
+    "id": "instancia_anfi_001",
+    "pregunta": "Durante el mes pasado, ¿cuántas detecciones de tipo chair hubo en Ferry Terminal?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_anfi_002",
+    "pregunta": "Durante el día 15, ¿cuántas detecciones de tipo person hubo en Anfi Harbour?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_anfi_003",
+    "pregunta": "¿Cuántos person se contabilizaron en Landscape el el mes pasado?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_anfi_004",
+    "pregunta": "Necesito saber el total de boat registrados en Landscape durante la semana pasada.",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_anfi_005",
+    "pregunta": "¿Podrías indicarme cuántos boat se detectaron en Ferry Terminal durante el día 15?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_anfi_006",
+    "pregunta": "¿Podrías indicarme cuántos boat se detectaron en Anfi Beach durante el mes pasado?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_anfi_007",
+    "pregunta": "¿Cuál fue la cifra de umbrella observados en Anfi Beach el ayer?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_anfi_008",
+    "pregunta": "Necesito saber el total de chair registrados en Anfi Beach durante el mes pasado.",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_anfi_009",
+    "pregunta": "¿Podrías indicarme cuántos boat se detectaron en Ferry Terminal durante el día 15?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_anfi_010",
+    "pregunta": "Durante la semana pasada, ¿cuántas detecciones de tipo boat hubo en Anfi Harbour?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_anfi_011",
+    "pregunta": "Necesito saber el total de umbrella registrados en Landscape durante el mes pasado.",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_anfi_012",
+    "pregunta": "¿Cuál fue la cifra de boat observados en Anfi Beach el la semana pasada?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_anfi_013",
+    "pregunta": "¿Podrías indicarme cuántos boat se detectaron en Ferry Terminal durante el día 15?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_anfi_014",
+    "pregunta": "Necesito saber el total de boat registrados en Ferry Terminal durante ayer.",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_anfi_015",
+    "pregunta": "¿Cuál fue la cifra de umbrella observados en Ferry Terminal el la semana pasada?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_anfi_016",
+    "pregunta": "Durante la semana pasada, ¿cuántas detecciones de tipo person hubo en Ferry Terminal?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_anfi_017",
+    "pregunta": "¿Cuántos person se contabilizaron en Ferry Terminal el el mes pasado?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_anfi_018",
+    "pregunta": "¿Cuántos chair se contabilizaron en Ferry Terminal el el mes pasado?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_anfi_019",
+    "pregunta": "¿Cuántos chair se contabilizaron en Ferry Terminal el el mes pasado?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_anfi_020",
+    "pregunta": "¿Podrías indicarme cuántos boat se detectaron en Landscape durante el día 15?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_anfi_021",
+    "pregunta": "¿Qué tipos de detecciones puede reconocer el sistema?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_anfi_022",
+    "pregunta": "¿Cuáles son las categorías de detección disponibles?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_anfi_023",
+    "pregunta": "¿Cuáles son las categorías de detección disponibles?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_anfi_024",
+    "pregunta": "¿Qué tipos de detecciones puede reconocer el sistema?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_anfi_025",
+    "pregunta": "¿Qué cosas puedes detectar en las cámaras de Anfi?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_anfi_026",
+    "pregunta": "¿Qué cosas puedes detectar en las cámaras de Anfi?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_anfi_027",
+    "pregunta": "¿Cuáles son las categorías de detección disponibles?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_anfi_028",
+    "pregunta": "¿Sobre qué elementos puedo preguntarte?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_anfi_029",
+    "pregunta": "¿Qué cosas puedes detectar en las cámaras de Anfi?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_anfi_030",
+    "pregunta": "¿Qué cosas puedes detectar en las cámaras de Anfi?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_anfi_031",
+    "pregunta": "¿Qué cosas puedes detectar en las cámaras de Anfi?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_anfi_032",
+    "pregunta": "¿Qué tipos de detecciones puede reconocer el sistema?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_anfi_033",
+    "pregunta": "¿Cuáles son las categorías de detección disponibles?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_anfi_034",
+    "pregunta": "¿Sobre qué elementos puedo preguntarte?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_anfi_035",
+    "pregunta": "¿Qué clases de objetos puede detectar este sistema?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_anfi_036",
+    "pregunta": "¿Qué cosas puedes detectar en las cámaras de Anfi?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_anfi_037",
+    "pregunta": "¿Qué tipos de detecciones puede reconocer el sistema?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_anfi_038",
+    "pregunta": "¿Sobre qué elementos puedo preguntarte?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_anfi_039",
+    "pregunta": "¿Cuáles son las categorías de detección disponibles?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_anfi_040",
+    "pregunta": "¿Qué clases de objetos puede detectar este sistema?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_anfi_041",
+    "pregunta": "¿Puedes darme una gráfica para entender mejor las cifras?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_anfi_042",
+    "pregunta": "¿Puedes darme una gráfica para entender mejor las cifras?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_anfi_043",
+    "pregunta": "¿Puedes darme una gráfica para entender mejor las cifras?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_anfi_044",
+    "pregunta": "¿Puedes darme una gráfica para entender mejor las cifras?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_anfi_045",
+    "pregunta": "¿Me puedes mostrar una representación visual de los resultados?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_anfi_046",
+    "pregunta": "¿Tienes alguna gráfica con las detecciones?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_anfi_047",
+    "pregunta": "¿Me puedes mostrar una representación visual de los resultados?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_anfi_048",
+    "pregunta": "¿Me puedes mostrar una representación visual de los resultados?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_anfi_049",
+    "pregunta": "¿Podrías generar una gráfica con estos datos?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_anfi_050",
+    "pregunta": "¿Me puedes mostrar una representación visual de los resultados?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_anfi_051",
+    "pregunta": "¿Puedes darme una gráfica para entender mejor las cifras?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_anfi_052",
+    "pregunta": "¿Podrías generar una gráfica con estos datos?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_anfi_053",
+    "pregunta": "¿Puedes darme una gráfica para entender mejor las cifras?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_anfi_054",
+    "pregunta": "¿Puedes darme una gráfica para entender mejor las cifras?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_anfi_055",
+    "pregunta": "¿Tienes alguna gráfica con las detecciones?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_anfi_056",
+    "pregunta": "¿Puedes darme una gráfica para entender mejor las cifras?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_anfi_057",
+    "pregunta": "¿Tienes alguna gráfica con las detecciones?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_anfi_058",
+    "pregunta": "¿Hay un gráfico que represente estas detecciones?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_anfi_059",
+    "pregunta": "¿Puedes darme una gráfica para entender mejor las cifras?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_anfi_060",
+    "pregunta": "¿Me puedes mostrar una representación visual de los resultados?",
+    "respuesta_esperada": "graphicGen()"
+  }
+]

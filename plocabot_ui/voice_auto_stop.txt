@@ -1,0 +1,121 @@
+//MENSAJES POR AUDIO-----------------------------------------------------------------------------------------------------------
+let mediaRecorder;
+let audioChunks = [];
+let silenceTimer;
+let audioContext;
+let analyser;
+let source;
+
+async function voice_recording() {
+  event.preventDefault();
+
+  try {
+    const devices = await navigator.mediaDevices.enumerateDevices();
+    const hasAudioInput = devices.some(device => device.kind === "audioinput");
+
+    if (!hasAudioInput) {
+      alert("No se detectó ningún micrófono conectado.");
+      return;
+    }
+
+    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+
+    startBtn.style.display = "none";
+    stopBtn.classList.remove("hidden");
+
+    mediaRecorder = new MediaRecorder(stream);
+    audioChunks = [];
+
+    mediaRecorder.ondataavailable = (event) => {
+      if (event.data.size > 0) {
+        audioChunks.push(event.data);
+      }
+    };
+
+    mediaRecorder.onstop = () => {
+      const audioBlob = new Blob(audioChunks, { type: "audio/webm" });
+      const formData = new FormData();
+      formData.append("audio", audioBlob, "recording.webm");
+
+      fetch("http://127.0.0.1:5000/audio-to-text", {
+        method: "POST",
+        body: formData,
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          input.value = data.text;
+          document.getElementById("chat-form").requestSubmit();
+        })
+        .catch((err) => console.error("Error enviando audio:", err));
+    };
+
+    mediaRecorder.start();
+    startBtn.disabled = true;
+    stopBtn.disabled = false;
+
+    // 🔍 Monitor de silencio
+    monitorSilence(stream);
+
+  } catch (error) {
+    alert("No se pudo acceder al micrófono: " + error.message);
+    console.error(error);
+  }
+}
+
+function monitorSilence(stream) {
+  audioContext = new (window.AudioContext || window.webkitAudioContext)();
+  source = audioContext.createMediaStreamSource(stream);
+  analyser = audioContext.createAnalyser();
+  analyser.fftSize = 512;
+
+  source.connect(analyser);
+
+  const bufferLength = analyser.fftSize;
+  const dataArray = new Uint8Array(bufferLength);
+
+  function checkSilence() {
+    analyser.getByteTimeDomainData(dataArray);
+    let sum = 0;
+    for (let i = 0; i < bufferLength; i++) {
+      const val = (dataArray[i] - 128) / 128;
+      sum += val * val;
+    }
+    const rms = Math.sqrt(sum / bufferLength);
+
+    if (rms < 0.01) {
+      if (!silenceTimer) {
+        silenceTimer = setTimeout(() => {
+          voice_stop_recording(); //  Auto stop
+        }, 1500); // 2 segundos de silencio
+      }
+    } else {
+      clearTimeout(silenceTimer);
+      silenceTimer = null;
+    }
+
+    if (mediaRecorder.state === "recording") {
+      requestAnimationFrame(checkSilence);
+    }
+  }
+
+  checkSilence();
+}
+
+function voice_stop_recording() {
+  startBtn.style.display = "block";
+  stopBtn.classList.add("hidden");
+
+  if (mediaRecorder && mediaRecorder.state === "recording") {
+    mediaRecorder.stop();
+  }
+
+  startBtn.disabled = false;
+  stopBtn.disabled = true;
+
+  if (audioContext) {
+    audioContext.close();
+  }
+  if (source) {
+    source.disconnect();
+  }
+}

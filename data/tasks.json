@@ -1,0 +1,11 @@
+{
+    "api-places": {
+        "Anfi-Del-Mar" : {
+            "LandScape" : ""
+        },
+        "Mirador" : {
+            "Plataforma" : "1157",
+            "Cercanias"  : "1174"
+        }
+    }
+}

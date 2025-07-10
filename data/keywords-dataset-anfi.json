@@ -1,0 +1,452 @@
+[
+  {
+    "id": "anfi_test_001",
+    "pregunta": "¿En Anfi Harbour, cuántos person se han contado la semana pasada?",
+    "respuesta_esperada": {
+      "what_question": "person",
+      "where_question": "Anfi Harbour",
+      "when_question": "last week"
+    }
+  },
+  {
+    "id": "anfi_test_002",
+    "pregunta": "¿Cuál fue la cantidad de umbrella en Ferry Terminal el mes pasado?",
+    "respuesta_esperada": {
+      "what_question": "umbrella",
+      "where_question": "Ferry Terminal",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "anfi_test_003",
+    "pregunta": "¿Cuál fue la cantidad de boat en Landscape Anfi esta semana?",
+    "respuesta_esperada": {
+      "what_question": "boat",
+      "where_question": "Landscape Anfi",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "anfi_test_004",
+    "pregunta": "¿Puedes decirme cuántos person fueron vistos en Landscape Anfi el mes pasado?",
+    "respuesta_esperada": {
+      "what_question": "person",
+      "where_question": "Landscape Anfi",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "anfi_test_005",
+    "pregunta": "¿Puedes decirme cuántos person fueron vistos en Landscape Anfi el mes pasado?",
+    "respuesta_esperada": {
+      "what_question": "person",
+      "where_question": "Landscape Anfi",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "anfi_test_006",
+    "pregunta": "¿Qué número de chair se registró en Landscape Anfi la semana pasada?",
+    "respuesta_esperada": {
+      "what_question": "chair",
+      "where_question": "Landscape Anfi",
+      "when_question": "last week"
+    }
+  },
+  {
+    "id": "anfi_test_007",
+    "pregunta": "¿Tienes el número de person detectados en Anfi Harbour ayer?",
+    "respuesta_esperada": {
+      "what_question": "person",
+      "where_question": "Anfi Harbour",
+      "when_question": "yesterday"
+    }
+  },
+  {
+    "id": "anfi_test_008",
+    "pregunta": "¿En Ferry Terminal, cuántos person se han contado esta semana?",
+    "respuesta_esperada": {
+      "what_question": "person",
+      "where_question": "Ferry Terminal",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "anfi_test_009",
+    "pregunta": "¿Cuál fue la cantidad de umbrella en Landscape Anfi el mes pasado?",
+    "respuesta_esperada": {
+      "what_question": "umbrella",
+      "where_question": "Landscape Anfi",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "anfi_test_010",
+    "pregunta": "¿Ferry Terminal registró muchas detecciones de person ayer?",
+    "respuesta_esperada": {
+      "what_question": "person",
+      "where_question": "Ferry Terminal",
+      "when_question": "yesterday"
+    }
+  },
+  {
+    "id": "anfi_test_011",
+    "pregunta": "¿Qué número de chair se registró en Ferry Terminal la semana pasada?",
+    "respuesta_esperada": {
+      "what_question": "chair",
+      "where_question": "Ferry Terminal",
+      "when_question": "last week"
+    }
+  },
+  {
+    "id": "anfi_test_012",
+    "pregunta": "¿Cuántas veces se ha detectado umbrella en Anfi Beach Zoom 2 esta semana?",
+    "respuesta_esperada": {
+      "what_question": "umbrella",
+      "where_question": "Anfi Beach Zoom 2",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "anfi_test_013",
+    "pregunta": "¿En Anfi Beach Zoom 1, cuántos boat se han contado esta semana?",
+    "respuesta_esperada": {
+      "what_question": "boat",
+      "where_question": "Anfi Beach Zoom 1",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "anfi_test_014",
+    "pregunta": "Facilítame el número de boat observados en Anfi Beach Zoom 2 durante la semana pasada.",
+    "respuesta_esperada": {
+      "what_question": "boat",
+      "where_question": "Anfi Beach Zoom 2",
+      "when_question": "last week"
+    }
+  },
+  {
+    "id": "anfi_test_015",
+    "pregunta": "¿En Anfi Harbour - Dock 3, cuántos boat se han contado esta semana?",
+    "respuesta_esperada": {
+      "what_question": "boat",
+      "where_question": "Anfi Harbour - Dock 3",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "anfi_test_016",
+    "pregunta": "¿Qué número de boat se registró en Ferry Terminal la semana pasada?",
+    "respuesta_esperada": {
+      "what_question": "boat",
+      "where_question": "Ferry Terminal",
+      "when_question": "last week"
+    }
+  },
+  {
+    "id": "anfi_test_017",
+    "pregunta": "¿Cuántas detecciones de tipo umbrella hubo en Anfi Harbour el mes pasado?",
+    "respuesta_esperada": {
+      "what_question": "umbrella",
+      "where_question": "Anfi Harbour",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "anfi_test_018",
+    "pregunta": "¿Puedes decirme cuántos boat fueron vistos en Anfi Harbour - Dock 3 el mes pasado?",
+    "respuesta_esperada": {
+      "what_question": "boat",
+      "where_question": "Anfi Harbour - Dock 3",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "anfi_test_019",
+    "pregunta": "¿Anfi Harbour - Dock 3 registró muchas detecciones de boat esta semana?",
+    "respuesta_esperada": {
+      "what_question": "boat",
+      "where_question": "Anfi Harbour - Dock 3",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "anfi_test_020",
+    "pregunta": "¿Qué número de boat se registró en Anfi Beach Zoom 2 el mes pasado?",
+    "respuesta_esperada": {
+      "what_question": "boat",
+      "where_question": "Anfi Beach Zoom 2",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "anfi_test_021",
+    "pregunta": "¿Tienes el número de boat detectados en Landscape Anfi ayer?",
+    "respuesta_esperada": {
+      "what_question": "boat",
+      "where_question": "Landscape Anfi",
+      "when_question": "yesterday"
+    }
+  },
+  {
+    "id": "anfi_test_022",
+    "pregunta": "¿Cuál fue la cantidad de chair en Ferry Terminal la semana pasada?",
+    "respuesta_esperada": {
+      "what_question": "chair",
+      "where_question": "Ferry Terminal",
+      "when_question": "last week"
+    }
+  },
+  {
+    "id": "anfi_test_023",
+    "pregunta": "¿Puedes decirme cuántos person fueron vistos en Anfi Beach Zoom 1 la semana pasada?",
+    "respuesta_esperada": {
+      "what_question": "person",
+      "where_question": "Anfi Beach Zoom 1",
+      "when_question": "last week"
+    }
+  },
+  {
+    "id": "anfi_test_024",
+    "pregunta": "¿En Anfi Beach Zoom 1, cuántos chair se han contado la semana pasada?",
+    "respuesta_esperada": {
+      "what_question": "chair",
+      "where_question": "Anfi Beach Zoom 1",
+      "when_question": "last week"
+    }
+  },
+  {
+    "id": "anfi_test_025",
+    "pregunta": "¿Cuál es el conteo de person en Landscape Anfi durante ayer?",
+    "respuesta_esperada": {
+      "what_question": "person",
+      "where_question": "Landscape Anfi",
+      "when_question": "yesterday"
+    }
+  },
+  {
+    "id": "anfi_test_026",
+    "pregunta": "¿Cuántas detecciones de tipo umbrella hubo en Landscape Anfi la semana pasada?",
+    "respuesta_esperada": {
+      "what_question": "umbrella",
+      "where_question": "Landscape Anfi",
+      "when_question": "last week"
+    }
+  },
+  {
+    "id": "anfi_test_027",
+    "pregunta": "¿Tienes el número de umbrella detectados en Anfi Harbour - Dock 3 esta semana?",
+    "respuesta_esperada": {
+      "what_question": "umbrella",
+      "where_question": "Anfi Harbour - Dock 3",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "anfi_test_028",
+    "pregunta": "Facilítame el número de boat observados en Anfi Beach Zoom 2 durante la semana pasada.",
+    "respuesta_esperada": {
+      "what_question": "boat",
+      "where_question": "Anfi Beach Zoom 2",
+      "when_question": "last week"
+    }
+  },
+  {
+    "id": "anfi_test_029",
+    "pregunta": "¿Puedes decirme cuántos person fueron vistos en Anfi Harbour - Dock 3 el mes pasado?",
+    "respuesta_esperada": {
+      "what_question": "person",
+      "where_question": "Anfi Harbour - Dock 3",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "anfi_test_030",
+    "pregunta": "¿Cuántas veces se ha detectado chair en Anfi Beach Zoom 2 ayer?",
+    "respuesta_esperada": {
+      "what_question": "chair",
+      "where_question": "Anfi Beach Zoom 2",
+      "when_question": "yesterday"
+    }
+  },
+  {
+    "id": "anfi_test_031",
+    "pregunta": "¿Anfi Beach Zoom 2 registró muchas detecciones de umbrella esta semana?",
+    "respuesta_esperada": {
+      "what_question": "umbrella",
+      "where_question": "Anfi Beach Zoom 2",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "anfi_test_032",
+    "pregunta": "¿Qué número de chair se registró en Anfi Harbour ayer?",
+    "respuesta_esperada": {
+      "what_question": "chair",
+      "where_question": "Anfi Harbour",
+      "when_question": "yesterday"
+    }
+  },
+  {
+    "id": "anfi_test_033",
+    "pregunta": "¿Tienes el número de umbrella detectados en Landscape Anfi el mes pasado?",
+    "respuesta_esperada": {
+      "what_question": "umbrella",
+      "where_question": "Landscape Anfi",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "anfi_test_034",
+    "pregunta": "¿Cuántas veces se ha detectado chair en Ferry Terminal la semana pasada?",
+    "respuesta_esperada": {
+      "what_question": "chair",
+      "where_question": "Ferry Terminal",
+      "when_question": "last week"
+    }
+  },
+  {
+    "id": "anfi_test_035",
+    "pregunta": "¿Puedes decirme cuántos boat fueron vistos en Anfi Beach Zoom 2 el mes pasado?",
+    "respuesta_esperada": {
+      "what_question": "boat",
+      "where_question": "Anfi Beach Zoom 2",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "anfi_test_036",
+    "pregunta": "¿Tienes el número de chair detectados en Anfi Harbour ayer?",
+    "respuesta_esperada": {
+      "what_question": "chair",
+      "where_question": "Anfi Harbour",
+      "when_question": "yesterday"
+    }
+  },
+  {
+    "id": "anfi_test_037",
+    "pregunta": "¿Cuál es el conteo de person en Anfi Harbour durante esta semana?",
+    "respuesta_esperada": {
+      "what_question": "person",
+      "where_question": "Anfi Harbour",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "anfi_test_038",
+    "pregunta": "Facilítame el número de person observados en Anfi Beach Zoom 2 durante ayer.",
+    "respuesta_esperada": {
+      "what_question": "person",
+      "where_question": "Anfi Beach Zoom 2",
+      "when_question": "yesterday"
+    }
+  },
+  {
+    "id": "anfi_test_039",
+    "pregunta": "¿Cuántas detecciones de tipo boat hubo en Anfi Beach Zoom 2 la semana pasada?",
+    "respuesta_esperada": {
+      "what_question": "boat",
+      "where_question": "Anfi Beach Zoom 2",
+      "when_question": "last week"
+    }
+  },
+  {
+    "id": "anfi_test_040",
+    "pregunta": "¿Qué número de person se registró en Ferry Terminal el mes pasado?",
+    "respuesta_esperada": {
+      "what_question": "person",
+      "where_question": "Ferry Terminal",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "anfi_test_041",
+    "pregunta": "Facilítame el número de boat observados en Anfi Harbour durante el mes pasado.",
+    "respuesta_esperada": {
+      "what_question": "boat",
+      "where_question": "Anfi Harbour",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "anfi_test_042",
+    "pregunta": "¿Tienes el número de umbrella detectados en Anfi Beach Zoom 2 esta semana?",
+    "respuesta_esperada": {
+      "what_question": "umbrella",
+      "where_question": "Anfi Beach Zoom 2",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "anfi_test_043",
+    "pregunta": "Facilítame el número de chair observados en Ferry Terminal durante el mes pasado.",
+    "respuesta_esperada": {
+      "what_question": "chair",
+      "where_question": "Ferry Terminal",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "anfi_test_044",
+    "pregunta": "¿En Anfi Beach Zoom 1, cuántos chair se han contado el mes pasado?",
+    "respuesta_esperada": {
+      "what_question": "chair",
+      "where_question": "Anfi Beach Zoom 1",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "anfi_test_045",
+    "pregunta": "¿En Landscape Anfi, cuántos chair se han contado el mes pasado?",
+    "respuesta_esperada": {
+      "what_question": "chair",
+      "where_question": "Landscape Anfi",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "anfi_test_046",
+    "pregunta": "¿Cuántas detecciones de tipo person hubo en Ferry Terminal el mes pasado?",
+    "respuesta_esperada": {
+      "what_question": "person",
+      "where_question": "Ferry Terminal",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "anfi_test_047",
+    "pregunta": "¿Cuántas detecciones de tipo person hubo en Anfi Beach Zoom 2 ayer?",
+    "respuesta_esperada": {
+      "what_question": "person",
+      "where_question": "Anfi Beach Zoom 2",
+      "when_question": "yesterday"
+    }
+  },
+  {
+    "id": "anfi_test_048",
+    "pregunta": "¿Tienes el número de umbrella detectados en Landscape Anfi ayer?",
+    "respuesta_esperada": {
+      "what_question": "umbrella",
+      "where_question": "Landscape Anfi",
+      "when_question": "yesterday"
+    }
+  },
+  {
+    "id": "anfi_test_049",
+    "pregunta": "¿Cuál es el conteo de chair en Anfi Beach Zoom 2 durante la semana pasada?",
+    "respuesta_esperada": {
+      "what_question": "chair",
+      "where_question": "Anfi Beach Zoom 2",
+      "when_question": "last week"
+    }
+  },
+  {
+    "id": "anfi_test_050",
+    "pregunta": "Facilítame el número de boat observados en Anfi Beach Zoom 1 durante la semana pasada.",
+    "respuesta_esperada": {
+      "what_question": "boat",
+      "where_question": "Anfi Beach Zoom 1",
+      "when_question": "last week"
+    }
+  }
+]

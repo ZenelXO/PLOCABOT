@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "anfi_ref_001",
+    "pregunta": "¿Cuál fue la cifra total de umbrella presentes en Anfi Beach en el día 15?",
+    "contexto": {
+      "person": 127,
+      "umbrella": 45,
+      "boat": 40,
+      "chair": 80
+    },
+    "what_answer": "umbrella",
+    "respuesta_esperada": "45"
+  },
+  {
+    "id": "anfi_ref_002",
+    "pregunta": "¿Qué cantidad de umbrella se observó en Ferry Terminal el el mes pasado?",
+    "contexto": {
+      "person": 87,
+      "umbrella": 64,
+      "boat": 20,
+      "chair": 23
+    },
+    "what_answer": "umbrella",
+    "respuesta_esperada": "64"
+  },
+  {
+    "id": "anfi_ref_003",
+    "pregunta": "¿Cuántos registros de boat existen para Anfi Harbour el la semana pasada?",
+    "contexto": {
+      "person": 106,
+      "umbrella": 78,
+      "boat": 36,
+      "chair": 97
+    },
+    "what_answer": "boat",
+    "respuesta_esperada": "36"
+  },
+  {
+    "id": "anfi_ref_004",
+    "pregunta": "¿Qué cantidad de umbrella se observó en Landscape el ayer?",
+    "contexto": {
+      "person": 273,
+      "umbrella": 45,
+      "boat": 11,
+      "chair": 60
+    },
+    "what_answer": "umbrella",
+    "respuesta_esperada": "45"
+  },
+  {
+    "id": "anfi_ref_005",
+    "pregunta": "¿Cuál fue la cifra total de person presentes en Ferry Terminal en el mes pasado?",
+    "contexto": {
+      "person": 73,
+      "umbrella": 44,
+      "boat": 19,
+      "chair": 136
+    },
+    "what_answer": "person",
+    "respuesta_esperada": "73"
+  },
+  {
+    "id": "anfi_ref_006",
+    "pregunta": "¿Me puedes decir cuántos person se registraron en Ferry Terminal durante ayer?",
+    "contexto": {
+      "person": 277,
+      "umbrella": 20,
+      "boat": 30,
+      "chair": 94
+    },
+    "what_answer": "person",
+    "respuesta_esperada": "277"
+  },
+  {
+    "id": "anfi_ref_007",
+    "pregunta": "¿Cuál es el total de person en Ferry Terminal correspondiente a el día 15?",
+    "contexto": {
+      "person": 223,
+      "umbrella": 58,
+      "boat": 23,
+      "chair": 106
+    },
+    "what_answer": "person",
+    "respuesta_esperada": "223"
+  },
+  {
+    "id": "anfi_ref_008",
+    "pregunta": "¿Cuántos registros de person existen para Ferry Terminal el el día 15?",
+    "contexto": {
+      "person": 254,
+      "umbrella": 88,
+      "boat": 15,
+      "chair": 73
+    },
+    "what_answer": "person",
+    "respuesta_esperada": "254"
+  },
+  {
+    "id": "anfi_ref_009",
+    "pregunta": "¿Me puedes decir cuántos chair se registraron en Anfi Harbour durante el día 15?",
+    "contexto": {
+      "person": 63,
+      "umbrella": 32,
+      "boat": 18,
+      "chair": 110
+    },
+    "what_answer": "chair",
+    "respuesta_esperada": "110"
+  },
+  {
+    "id": "anfi_ref_010",
+    "pregunta": "Informe la cantidad de elementos detectados en Anfi Harbour el el mes pasado.",
+    "contexto": {
+      "person": 284,
+      "umbrella": 59,
+      "boat": 27,
+      "chair": 99
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "469"
+  },
+  {
+    "id": "anfi_ref_011",
+    "pregunta": "¿Cuál es el total de person en Anfi Beach correspondiente a el mes pasado?",
+    "contexto": {
+      "person": 298,
+      "umbrella": 96,
+      "boat": 9,
+      "chair": 111
+    },
+    "what_answer": "person",
+    "respuesta_esperada": "298"
+  },
+  {
+    "id": "anfi_ref_012",
+    "pregunta": "¿Me puedes decir cuántos elementos se registraron en Landscape durante el día 15?",
+    "contexto": {
+      "person": 63,
+      "umbrella": 19,
+      "boat": 25,
+      "chair": 65
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "172"
+  },
+  {
+    "id": "anfi_ref_013",
+    "pregunta": "¿Me puedes decir cuántos person se registraron en Anfi Harbour durante ayer?",
+    "contexto": {
+      "person": 98,
+      "umbrella": 31,
+      "boat": 25,
+      "chair": 82
+    },
+    "what_answer": "person",
+    "respuesta_esperada": "98"
+  },
+  {
+    "id": "anfi_ref_014",
+    "pregunta": "¿Cuál fue la cifra total de boat presentes en Landscape en ayer?",
+    "contexto": {
+      "person": 267,
+      "umbrella": 98,
+      "boat": 23,
+      "chair": 135
+    },
+    "what_answer": "boat",
+    "respuesta_esperada": "23"
+  },
+  {
+    "id": "anfi_ref_015",
+    "pregunta": "¿Con cuántos person se contabilizó en Anfi Beach durante el día 15?",
+    "contexto": {
+      "person": 297,
+      "umbrella": 58,
+      "boat": 16,
+      "chair": 70
+    },
+    "what_answer": "person",
+    "respuesta_esperada": "297"
+  },
+  {
+    "id": "anfi_ref_016",
+    "pregunta": "Informe la cantidad de umbrella detectados en Landscape el ayer.",
+    "contexto": {
+      "person": 231,
+      "umbrella": 86,
+      "boat": 40,
+      "chair": 67
+    },
+    "what_answer": "umbrella",
+    "respuesta_esperada": "86"
+  },
+  {
+    "id": "anfi_ref_017",
+    "pregunta": "¿Con cuántos umbrella se contabilizó en Landscape durante el día 15?",
+    "contexto": {
+      "person": 176,
+      "umbrella": 33,
+      "boat": 24,
+      "chair": 39
+    },
+    "what_answer": "umbrella",
+    "respuesta_esperada": "33"
+  },
+  {
+    "id": "anfi_ref_018",
+    "pregunta": "¿Cuántos registros de umbrella existen para Anfi Beach el ayer?",
+    "contexto": {
+      "person": 55,
+      "umbrella": 59,
+      "boat": 9,
+      "chair": 95
+    },
+    "what_answer": "umbrella",
+    "respuesta_esperada": "59"
+  },
+  {
+    "id": "anfi_ref_019",
+    "pregunta": "Durante el día 15 en Anfi Beach, ¿cuál fue el número de chair detectados?",
+    "contexto": {
+      "person": 210,
+      "umbrella": 74,
+      "boat": 35,
+      "chair": 62
+    },
+    "what_answer": "chair",
+    "respuesta_esperada": "62"
+  },
+  {
+    "id": "anfi_ref_020",
+    "pregunta": "¿Me puedes decir cuántos umbrella se registraron en Anfi Beach durante el día 15?",
+    "contexto": {
+      "person": 252,
+      "umbrella": 13,
+      "boat": 32,
+      "chair": 53
+    },
+    "what_answer": "umbrella",
+    "respuesta_esperada": "13"
+  },
+  {
+    "id": "anfi_ref_021",
+    "pregunta": "¿Cuál fue la cifra total de person presentes en Anfi Beach en la semana pasada?",
+    "contexto": {
+      "person": 71,
+      "umbrella": 90,
+      "boat": 36,
+      "chair": 138
+    },
+    "what_answer": "person",
+    "respuesta_esperada": "71"
+  },
+  {
+    "id": "anfi_ref_022",
+    "pregunta": "¿Se sabe cuántos elementos hubo en Landscape durante el día 15?",
+    "contexto": {
+      "person": 104,
+      "umbrella": 27,
+      "boat": 13,
+      "chair": 92
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "236"
+  },
+  {
+    "id": "anfi_ref_023",
+    "pregunta": "¿Qué cantidad de umbrella se observó en Anfi Harbour el el día 15?",
+    "contexto": {
+      "person": 99,
+      "umbrella": 52,
+      "boat": 19,
+      "chair": 88
+    },
+    "what_answer": "umbrella",
+    "respuesta_esperada": "52"
+  },
+  {
+    "id": "anfi_ref_024",
+    "pregunta": "¿Qué cantidad de umbrella se observó en Ferry Terminal el el día 15?",
+    "contexto": {
+      "person": 218,
+      "umbrella": 66,
+      "boat": 38,
+      "chair": 64
+    },
+    "what_answer": "umbrella",
+    "respuesta_esperada": "66"
+  },
+  {
+    "id": "anfi_ref_025",
+    "pregunta": "Para la fecha el mes pasado, ¿cuántos umbrella se contaron en Landscape?",
+    "contexto": {
+      "person": 280,
+      "umbrella": 30,
+      "boat": 18,
+      "chair": 116
+    },
+    "what_answer": "umbrella",
+    "respuesta_esperada": "30"
+  },
+  {
+    "id": "anfi_ref_026",
+    "pregunta": "¿Con cuántos chair se contabilizó en Anfi Beach durante el día 15?",
+    "contexto": {
+      "person": 244,
+      "umbrella": 98,
+      "boat": 35,
+      "chair": 27
+    },
+    "what_answer": "chair",
+    "respuesta_esperada": "27"
+  },
+  {
+    "id": "anfi_ref_027",
+    "pregunta": "Informe la cantidad de person detectados en Anfi Beach el el día 15.",
+    "contexto": {
+      "person": 213,
+      "umbrella": 30,
+      "boat": 12,
+      "chair": 129
+    },
+    "what_answer": "person",
+    "respuesta_esperada": "213"
+  },
+  {
+    "id": "anfi_ref_028",
+    "pregunta": "¿Cuántos registros de boat existen para Ferry Terminal el el mes pasado?",
+    "contexto": {
+      "person": 269,
+      "umbrella": 11,
+      "boat": 29,
+      "chair": 41
+    },
+    "what_answer": "boat",
+    "respuesta_esperada": "29"
+  },
+  {
+    "id": "anfi_ref_029",
+    "pregunta": "Para la fecha el día 15, ¿cuántos boat se contaron en Landscape?",
+    "contexto": {
+      "person": 71,
+      "umbrella": 73,
+      "boat": 6,
+      "chair": 58
+    },
+    "what_answer": "boat",
+    "respuesta_esperada": "6"
+  },
+  {
+    "id": "anfi_ref_030",
+    "pregunta": "Informe la cantidad de person detectados en Anfi Harbour el la semana pasada.",
+    "contexto": {
+      "person": 215,
+      "umbrella": 51,
+      "boat": 20,
+      "chair": 76
+    },
+    "what_answer": "person",
+    "respuesta_esperada": "215"
+  },
+  {
+    "id": "anfi_ref_031",
+    "pregunta": "Durante ayer en Anfi Harbour, ¿cuál fue el número de chair detectados?",
+    "contexto": {
+      "person": 116,
+      "umbrella": 91,
+      "boat": 31,
+      "chair": 24
+    },
+    "what_answer": "chair",
+    "respuesta_esperada": "24"
+  },
+  {
+    "id": "anfi_ref_032",
+    "pregunta": "¿Cuál fue la cifra total de chair presentes en Anfi Harbour en ayer?",
+    "contexto": {
+      "person": 55,
+      "umbrella": 53,
+      "boat": 25,
+      "chair": 50
+    },
+    "what_answer": "chair",
+    "respuesta_esperada": "50"
+  },
+  {
+    "id": "anfi_ref_033",
+    "pregunta": "¿Cuál fue la cifra total de person presentes en Anfi Beach en el día 15?",
+    "contexto": {
+      "person": 52,
+      "umbrella": 51,
+      "boat": 35,
+      "chair": 130
+    },
+    "what_answer": "person",
+    "respuesta_esperada": "52"
+  },
+  {
+    "id": "anfi_ref_034",
+    "pregunta": "¿Me puedes decir cuántos umbrella se registraron en Anfi Beach durante la semana pasada?",
+    "contexto": {
+      "person": 151,
+      "umbrella": 17,
+      "boat": 38,
+      "chair": 82
+    },
+    "what_answer": "umbrella",
+    "respuesta_esperada": "17"
+  },
+  {
+    "id": "anfi_ref_035",
+    "pregunta": "Informe la cantidad de elementos detectados en Landscape el el día 15.",
+    "contexto": {
+      "person": 287,
+      "umbrella": 24,
+      "boat": 35,
+      "chair": 79
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "425"
+  },
+  {
+    "id": "anfi_ref_036",
+    "pregunta": "¿Cuál fue la cifra total de chair presentes en Anfi Beach en el mes pasado?",
+    "contexto": {
+      "person": 256,
+      "umbrella": 28,
+      "boat": 39,
+      "chair": 102
+    },
+    "what_answer": "chair",
+    "respuesta_esperada": "102"
+  },
+  {
+    "id": "anfi_ref_037",
+    "pregunta": "¿Cuál fue la cifra total de person presentes en Anfi Harbour en el día 15?",
+    "contexto": {
+      "person": 121,
+      "umbrella": 56,
+      "boat": 13,
+      "chair": 140
+    },
+    "what_answer": "person",
+    "respuesta_esperada": "121"
+  },
+  {
+    "id": "anfi_ref_038",
+    "pregunta": "¿Se sabe cuántos chair hubo en Anfi Beach durante el día 15?",
+    "contexto": {
+      "person": 151,
+      "umbrella": 75,
+      "boat": 26,
+      "chair": 62
+    },
+    "what_answer": "chair",
+    "respuesta_esperada": "62"
+  },
+  {
+    "id": "anfi_ref_039",
+    "pregunta": "¿Me puedes decir cuántos boat se registraron en Anfi Beach durante ayer?",
+    "contexto": {
+      "person": 232,
+      "umbrella": 67,
+      "boat": 23,
+      "chair": 141
+    },
+    "what_answer": "boat",
+    "respuesta_esperada": "23"
+  },
+  {
+    "id": "anfi_ref_040",
+    "pregunta": "Durante el día 15 en Ferry Terminal, ¿cuál fue el número de umbrella detectados?",
+    "contexto": {
+      "person": 125,
+      "umbrella": 89,
+      "boat": 12,
+      "chair": 121
+    },
+    "what_answer": "umbrella",
+    "respuesta_esperada": "89"
+  },
+  {
+    "id": "anfi_ref_041",
+    "pregunta": "¿Cuál es el total de elementos en Anfi Beach correspondiente a ayer?",
+    "contexto": {
+      "person": 298,
+      "umbrella": 85,
+      "boat": 34,
+      "chair": 25
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "442"
+  },
+  {
+    "id": "anfi_ref_042",
+    "pregunta": "¿Se sabe cuántos umbrella hubo en Anfi Harbour durante ayer?",
+    "contexto": {
+      "person": 292,
+      "umbrella": 70,
+      "boat": 39,
+      "chair": 80
+    },
+    "what_answer": "umbrella",
+    "respuesta_esperada": "70"
+  },
+  {
+    "id": "anfi_ref_043",
+    "pregunta": "¿Con cuántos boat se contabilizó en Ferry Terminal durante el día 15?",
+    "contexto": {
+      "person": 67,
+      "umbrella": 62,
+      "boat": 37,
+      "chair": 22
+    },
+    "what_answer": "boat",
+    "respuesta_esperada": "37"
+  },
+  {
+    "id": "anfi_ref_044",
+    "pregunta": "Para la fecha el mes pasado, ¿cuántos umbrella se contaron en Ferry Terminal?",
+    "contexto": {
+      "person": 271,
+      "umbrella": 32,
+      "boat": 11,
+      "chair": 98
+    },
+    "what_answer": "umbrella",
+    "respuesta_esperada": "32"
+  },
+  {
+    "id": "anfi_ref_045",
+    "pregunta": "Durante la semana pasada en Landscape, ¿cuál fue el número de boat detectados?",
+    "contexto": {
+      "person": 76,
+      "umbrella": 71,
+      "boat": 7,
+      "chair": 47
+    },
+    "what_answer": "boat",
+    "respuesta_esperada": "7"
+  },
+  {
+    "id": "anfi_ref_046",
+    "pregunta": "¿Cuántos registros de umbrella existen para Landscape el la semana pasada?",
+    "contexto": {
+      "person": 273,
+      "umbrella": 48,
+      "boat": 9,
+      "chair": 119
+    },
+    "what_answer": "umbrella",
+    "respuesta_esperada": "48"
+  },
+  {
+    "id": "anfi_ref_047",
+    "pregunta": "Para la fecha la semana pasada, ¿cuántos person se contaron en Anfi Beach?",
+    "contexto": {
+      "person": 52,
+      "umbrella": 22,
+      "boat": 26,
+      "chair": 116
+    },
+    "what_answer": "person",
+    "respuesta_esperada": "52"
+  },
+  {
+    "id": "anfi_ref_048",
+    "pregunta": "Para la fecha la semana pasada, ¿cuántos chair se contaron en Landscape?",
+    "contexto": {
+      "person": 193,
+      "umbrella": 63,
+      "boat": 7,
+      "chair": 96
+    },
+    "what_answer": "chair",
+    "respuesta_esperada": "96"
+  },
+  {
+    "id": "anfi_ref_049",
+    "pregunta": "¿Cuántos registros de umbrella existen para Anfi Harbour el ayer?",
+    "contexto": {
+      "person": 182,
+      "umbrella": 81,
+      "boat": 38,
+      "chair": 149
+    },
+    "what_answer": "umbrella",
+    "respuesta_esperada": "81"
+  },
+  {
+    "id": "anfi_ref_050",
+    "pregunta": "¿Cuál es el total de umbrella en Anfi Beach correspondiente a la semana pasada?",
+    "contexto": {
+      "person": 88,
+      "umbrella": 36,
+      "boat": 37,
+      "chair": 48
+    },
+    "what_answer": "umbrella",
+    "respuesta_esperada": "36"
+  },
+  {
+    "id": "anfi_op_001",
+    "pregunta": "¿Qué mediana de detecciones se registró en Ferry Terminal el el día 15?",
+    "contexto": {
+      "person": 144,
+      "umbrella": 61,
+      "boat": 21,
+      "chair": 133
+    },
+    "what_answer": "mediana",
+    "respuesta_esperada": "97.0"
+  },
+  {
+    "id": "anfi_op_002",
+    "pregunta": "¿Qué mediana de detecciones se registró en Ferry Terminal el ayer?",
+    "contexto": {
+      "person": 125,
+      "umbrella": 83,
+      "boat": 24,
+      "chair": 115
+    },
+    "what_answer": "mediana",
+    "respuesta_esperada": "99.0"
+  },
+  {
+    "id": "anfi_op_003",
+    "pregunta": "¿Cuál fue el tipo con más detecciones en Landscape durante el día 15?",
+    "contexto": {
+      "person": 277,
+      "umbrella": 41,
+      "boat": 15,
+      "chair": 120
+    },
+    "what_answer": "máximo",
+    "respuesta_esperada": "person"
+  },
+  {
+    "id": "anfi_op_004",
+    "pregunta": "¿Qué elemento fue el menos detectado en Anfi Beach el el día 15?",
+    "contexto": {
+      "person": 273,
+      "umbrella": 46,
+      "boat": 29,
+      "chair": 106
+    },
+    "what_answer": "mínimo",
+    "respuesta_esperada": "boat"
+  },
+  {
+    "id": "anfi_op_005",
+    "pregunta": "¿Cuál fue la media de elementos detectados en Anfi Harbour durante ayer?",
+    "contexto": {
+      "person": 110,
+      "umbrella": 63,
+      "boat": 36,
+      "chair": 47
+    },
+    "what_answer": "media",
+    "respuesta_esperada": "64"
+  },
+  {
+    "id": "anfi_op_006",
+    "pregunta": "¿Cuál fue el tipo con más detecciones en Anfi Harbour durante el mes pasado?",
+    "contexto": {
+      "person": 284,
+      "umbrella": 29,
+      "boat": 32,
+      "chair": 141
+    },
+    "what_answer": "máximo",
+    "respuesta_esperada": "person"
+  },
+  {
+    "id": "anfi_op_007",
+    "pregunta": "¿Cuál fue la media de elementos detectados en Ferry Terminal durante ayer?",
+    "contexto": {
+      "person": 300,
+      "umbrella": 93,
+      "boat": 12,
+      "chair": 98
+    },
+    "what_answer": "media",
+    "respuesta_esperada": "125.75"
+  },
+  {
+    "id": "anfi_op_008",
+    "pregunta": "¿Qué mediana de detecciones se registró en Anfi Harbour el ayer?",
+    "contexto": {
+      "person": 295,
+      "umbrella": 35,
+      "boat": 27,
+      "chair": 143
+    },
+    "what_answer": "mediana",
+    "respuesta_esperada": "89.0"
+  },
+  {
+    "id": "anfi_op_009",
+    "pregunta": "¿Qué mediana de detecciones se registró en Anfi Beach el el mes pasado?",
+    "contexto": {
+      "person": 134,
+      "umbrella": 57,
+      "boat": 24,
+      "chair": 142
+    },
+    "what_answer": "mediana",
+    "respuesta_esperada": "95.5"
+  },
+  {
+    "id": "anfi_op_011",
+    "pregunta": "¿Cuál fue el tipo con más detecciones en Anfi Beach durante el mes pasado?",
+    "contexto": {
+      "person": 89,
+      "umbrella": 100,
+      "boat": 12,
+      "chair": 84
+    },
+    "what_answer": "máximo",
+    "respuesta_esperada": "umbrella"
+  },
+  {
+    "id": "anfi_op_012",
+    "pregunta": "¿Cuál fue la media de elementos detectados en Landscape durante la semana pasada?",
+    "contexto": {
+      "person": 253,
+      "umbrella": 21,
+      "boat": 40,
+      "chair": 20
+    },
+    "what_answer": "media",
+    "respuesta_esperada": "83.5"
+  },
+  {
+    "id": "anfi_op_014",
+    "pregunta": "¿Cuál fue el tipo con más detecciones en Anfi Harbour durante la semana pasada?",
+    "contexto": {
+      "person": 107,
+      "umbrella": 61,
+      "boat": 31,
+      "chair": 142
+    },
+    "what_answer": "máximo",
+    "respuesta_esperada": "chair"
+  },
+  {
+    "id": "anfi_op_015",
+    "pregunta": "¿Qué mediana de detecciones se registró en Anfi Beach el la semana pasada?",
+    "contexto": {
+      "person": 284,
+      "umbrella": 67,
+      "boat": 38,
+      "chair": 106
+    },
+    "what_answer": "mediana",
+    "respuesta_esperada": "86.5"
+  },
+  {
+    "id": "anfi_op_017",
+    "pregunta": "¿Cuál fue el tipo con más detecciones en Anfi Beach durante la semana pasada?",
+    "contexto": {
+      "person": 204,
+      "umbrella": 56,
+      "boat": 23,
+      "chair": 20
+    },
+    "what_answer": "máximo",
+    "respuesta_esperada": "person"
+  },
+  {
+    "id": "anfi_op_018",
+    "pregunta": "¿Cuál fue el tipo con más detecciones en Ferry Terminal durante el mes pasado?",
+    "contexto": {
+      "person": 67,
+      "umbrella": 97,
+      "boat": 20,
+      "chair": 94
+    },
+    "what_answer": "máximo",
+    "respuesta_esperada": "umbrella"
+  },
+  {
+    "id": "anfi_op_020",
+    "pregunta": "¿Qué elemento fue el menos detectado en Anfi Beach el ayer?",
+    "contexto": {
+      "person": 56,
+      "umbrella": 61,
+      "boat": 12,
+      "chair": 76
+    },
+    "what_answer": "mínimo",
+    "respuesta_esperada": "boat"
+  },
+  {
+    "id": "anfi_op_021",
+    "pregunta": "¿Cuál fue el tipo con más detecciones en Ferry Terminal durante ayer?",
+    "contexto": {
+      "person": 173,
+      "umbrella": 49,
+      "boat": 6,
+      "chair": 52
+    },
+    "what_answer": "máximo",
+    "respuesta_esperada": "person"
+  },
+  {
+    "id": "anfi_op_022",
+    "pregunta": "¿Qué mediana de detecciones se registró en Anfi Beach el ayer?",
+    "contexto": {
+      "person": 127,
+      "umbrella": 23,
+      "boat": 39,
+      "chair": 51
+    },
+    "what_answer": "mediana",
+    "respuesta_esperada": "45.0"
+  },
+  {
+    "id": "anfi_op_023",
+    "pregunta": "¿Cuál fue el tipo con más detecciones en Anfi Beach durante el día 15?",
+    "contexto": {
+      "person": 219,
+      "umbrella": 100,
+      "boat": 16,
+      "chair": 21
+    },
+    "what_answer": "máximo",
+    "respuesta_esperada": "person"
+  },
+  {
+    "id": "anfi_op_024",
+    "pregunta": "¿Cuál fue la media de elementos detectados en Landscape durante el día 15?",
+    "contexto": {
+      "person": 121,
+      "umbrella": 99,
+      "boat": 25,
+      "chair": 115
+    },
+    "what_answer": "media",
+    "respuesta_esperada": "90"
+  },
+  {
+    "id": "anfi_op_028",
+    "pregunta": "¿Cuál fue la media de elementos detectados en Anfi Harbour durante el mes pasado?",
+    "contexto": {
+      "person": 124,
+      "umbrella": 31,
+      "boat": 6,
+      "chair": 75
+    },
+    "what_answer": "media",
+    "respuesta_esperada": "59"
+  },
+  {
+    "id": "anfi_op_030",
+    "pregunta": "¿Cuál fue el tipo con más detecciones en Landscape durante ayer?",
+    "contexto": {
+      "person": 125,
+      "umbrella": 74,
+      "boat": 9,
+      "chair": 139
+    },
+    "what_answer": "máximo",
+    "respuesta_esperada": "chair"
+  },
+  {
+    "id": "anfi_op_031",
+    "pregunta": "¿Cuál fue la media de elementos detectados en Landscape durante el mes pasado?",
+    "contexto": {
+      "person": 175,
+      "umbrella": 53,
+      "boat": 28,
+      "chair": 99
+    },
+    "what_answer": "media",
+    "respuesta_esperada": "88.75"
+  },
+  {
+    "id": "anfi_op_032",
+    "pregunta": "¿Qué elemento fue el menos detectado en Anfi Harbour el ayer?",
+    "contexto": {
+      "person": 58,
+      "umbrella": 99,
+      "boat": 14,
+      "chair": 90
+    },
+    "what_answer": "mínimo",
+    "respuesta_esperada": "boat"
+  },
+  {
+    "id": "anfi_op_033",
+    "pregunta": "¿Qué mediana de detecciones se registró en Anfi Harbour el el mes pasado?",
+    "contexto": {
+      "person": 279,
+      "umbrella": 22,
+      "boat": 13,
+      "chair": 149
+    },
+    "what_answer": "mediana",
+    "respuesta_esperada": "85.5"
+  },
+  {
+    "id": "anfi_op_034",
+    "pregunta": "¿Qué elemento fue el menos detectado en Ferry Terminal el el día 15?",
+    "contexto": {
+      "person": 230,
+      "umbrella": 66,
+      "boat": 13,
+      "chair": 22
+    },
+    "what_answer": "mínimo",
+    "respuesta_esperada": "boat"
+  },
+  {
+    "id": "anfi_op_035",
+    "pregunta": "¿Cuál fue el tipo con más detecciones en Ferry Terminal durante el día 15?",
+    "contexto": {
+      "person": 181,
+      "umbrella": 74,
+      "boat": 22,
+      "chair": 24
+    },
+    "what_answer": "máximo",
+    "respuesta_esperada": "person"
+  },
+  {
+    "id": "anfi_op_036",
+    "pregunta": "¿Qué elemento fue el menos detectado en Anfi Harbour el la semana pasada?",
+    "contexto": {
+      "person": 106,
+      "umbrella": 80,
+      "boat": 28,
+      "chair": 136
+    },
+    "what_answer": "mínimo",
+    "respuesta_esperada": "boat"
+  },
+  {
+    "id": "anfi_op_037",
+    "pregunta": "¿Qué mediana de detecciones se registró en Landscape el ayer?",
+    "contexto": {
+      "person": 148,
+      "umbrella": 47,
+      "boat": 9,
+      "chair": 27
+    },
+    "what_answer": "mediana",
+    "respuesta_esperada": "37.0"
+  },
+  {
+    "id": "anfi_op_040",
+    "pregunta": "¿Qué elemento fue el menos detectado en Anfi Beach el el mes pasado?",
+    "contexto": {
+      "person": 288,
+      "umbrella": 81,
+      "boat": 22,
+      "chair": 99
+    },
+    "what_answer": "mínimo",
+    "respuesta_esperada": "boat"
+  },
+  {
+    "id": "anfi_op_041",
+    "pregunta": "¿Qué mediana de detecciones se registró en Landscape el el mes pasado?",
+    "contexto": {
+      "person": 239,
+      "umbrella": 19,
+      "boat": 23,
+      "chair": 124
+    },
+    "what_answer": "mediana",
+    "respuesta_esperada": "73.5"
+  },
+  {
+    "id": "anfi_op_043",
+    "pregunta": "¿Cuál fue el tipo con más detecciones en Anfi Harbour ayer?",
+    "contexto": {
+      "person": 53,
+      "umbrella": 57,
+      "boat": 31,
+      "chair": 43
+    },
+    "what_answer": "máximo",
+    "respuesta_esperada": "umbrella"
+  },
+  {
+    "id": "anfi_op_044",
+    "pregunta": "¿Cuál fue la media de elementos detectados en Ferry Terminal durante el día 15?",
+    "contexto": {
+      "person": 299,
+      "umbrella": 83,
+      "boat": 39,
+      "chair": 92
+    },
+    "what_answer": "media",
+    "respuesta_esperada": "128.25"
+  },
+  {
+    "id": "anfi_op_045",
+    "pregunta": "¿Qué mediana de detecciones se registró en Landscape el la semana pasada?",
+    "contexto": {
+      "person": 97,
+      "umbrella": 43,
+      "boat": 15,
+      "chair": 74
+    },
+    "what_answer": "mediana",
+    "respuesta_esperada": "58.5"
+  },
+  {
+    "id": "anfi_op_048",
+    "pregunta": "¿Qué elemento fue el menos detectado en Landscape el ayer?",
+    "contexto": {
+      "person": 155,
+      "umbrella": 87,
+      "boat": 25,
+      "chair": 55
+    },
+    "what_answer": "mínimo",
+    "respuesta_esperada": "boat"
+  },
+  {
+    "id": "anfi_autogen_086",
+    "pregunta": "En el periodo de el mes pasado, ¿qué cantidad de umbrella se observó en Anfi Harbour?",
+    "contexto": {
+      "person": 109,
+      "umbrella": 89,
+      "boat": 37,
+      "chair": 125
+    },
+    "what_answer": "umbrella",
+    "respuesta_esperada": "89"
+  },
+  {
+    "id": "anfi_autogen_087",
+    "pregunta": "¿Puedes facilitarme el dato de cuántos elementos fueron registrados en Landscape el la semana pasada?",
+    "contexto": {
+      "person": 66,
+      "umbrella": 75,
+      "boat": 24,
+      "chair": 43
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "208"
+  },
+  {
+    "id": "anfi_autogen_088",
+    "pregunta": "¿Se sabe cuántas veces se identificaron elementos en Anfi Harbour en la semana pasada?",
+    "contexto": {
+      "person": 175,
+      "umbrella": 14,
+      "boat": 28,
+      "chair": 144
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "361"
+  },
+  {
+    "id": "anfi_autogen_089",
+    "pregunta": "¿Tienes información sobre los elementos captados en Anfi Harbour el ayer?",
+    "contexto": {
+      "person": 104,
+      "umbrella": 19,
+      "boat": 9,
+      "chair": 139
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "271"
+  },
+  {
+    "id": "anfi_autogen_090",
+    "pregunta": "¿Se detectaron muchos boat en Anfi Harbour el el día 15?",
+    "contexto": {
+      "person": 204,
+      "umbrella": 77,
+      "boat": 20,
+      "chair": 97
+    },
+    "what_answer": "boat",
+    "respuesta_esperada": "20"
+  },
+  {
+    "id": "anfi_autogen_091",
+    "pregunta": "¿Podrías decirme el número exacto de boat que se vieron en Ferry Terminal en la semana pasada?",
+    "contexto": {
+      "person": 99,
+      "umbrella": 24,
+      "boat": 39,
+      "chair": 136
+    },
+    "what_answer": "boat",
+    "respuesta_esperada": "39"
+  },
+  {
+    "id": "anfi_autogen_092",
+    "pregunta": "¿Se detectaron muchos elementos en Ferry Terminal el la semana pasada?",
+    "contexto": {
+      "person": 193,
+      "umbrella": 18,
+      "boat": 22,
+      "chair": 104
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "337"
+  },
+  {
+    "id": "anfi_autogen_093",
+    "pregunta": "¿Tienes información sobre los elementos captados en Landscape el el mes pasado?",
+    "contexto": {
+      "person": 190,
+      "umbrella": 47,
+      "boat": 11,
+      "chair": 63
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "311"
+  },
+  {
+    "id": "anfi_autogen_094",
+    "pregunta": "¿Se detectaron muchos elementos en Anfi Harbour el el mes pasado?",
+    "contexto": {
+      "person": 260,
+      "umbrella": 20,
+      "boat": 6,
+      "chair": 25
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "311"
+  },
+  {
+    "id": "anfi_autogen_095",
+    "pregunta": "¿Puedes facilitarme el dato de cuántos boat fueron registrados en Ferry Terminal el el día 15?",
+    "contexto": {
+      "person": 298,
+      "umbrella": 51,
+      "boat": 32,
+      "chair": 147
+    },
+    "what_answer": "boat",
+    "respuesta_esperada": "32"
+  },
+  {
+    "id": "anfi_autogen_096",
+    "pregunta": "¿Puedes facilitarme el dato de cuántos chair fueron registrados en Landscape el el mes pasado?",
+    "contexto": {
+      "person": 51,
+      "umbrella": 84,
+      "boat": 39,
+      "chair": 140
+    },
+    "what_answer": "chair",
+    "respuesta_esperada": "140"
+  },
+  {
+    "id": "anfi_autogen_097",
+    "pregunta": "¿Cuál fue el conteo de person reportado en Anfi Harbour durante la semana pasada?",
+    "contexto": {
+      "person": 172,
+      "umbrella": 40,
+      "boat": 16,
+      "chair": 122
+    },
+    "what_answer": "person",
+    "respuesta_esperada": "172"
+  },
+  {
+    "id": "anfi_autogen_098",
+    "pregunta": "Durante el mes pasado, ¿qué cifras se manejaron sobre elementos en Anfi Beach?",
+    "contexto": {
+      "person": 183,
+      "umbrella": 35,
+      "boat": 7,
+      "chair": 145
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "370"
+  },
+  {
+    "id": "anfi_autogen_099",
+    "pregunta": "¿Se sabe cuántas veces se identificaron chair en Anfi Beach en la semana pasada?",
+    "contexto": {
+      "person": 180,
+      "umbrella": 67,
+      "boat": 20,
+      "chair": 84
+    },
+    "what_answer": "chair",
+    "respuesta_esperada": "84"
+  },
+  {
+    "id": "anfi_autogen_100",
+    "pregunta": "¿Se detectaron muchos boat en Landscape el el día 15?",
+    "contexto": {
+      "person": 242,
+      "umbrella": 34,
+      "boat": 31,
+      "chair": 82
+    },
+    "what_answer": "boat",
+    "respuesta_esperada": "31"
+  }
+]

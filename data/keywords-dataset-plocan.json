@@ -1,0 +1,452 @@
+[
+  {
+    "id": "plocan_test_001",
+    "pregunta": "¿Cuál fue el total de Motorboat vistos en Banco de Ensayos el mes pasado?",
+    "respuesta_esperada": {
+      "what_question": "Motorboat",
+      "where_question": "Banco de Ensayos",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "plocan_test_002",
+    "pregunta": "¿Cuántos Motorboat fueron detectados en Proximidad Plataforma esta semana?",
+    "respuesta_esperada": {
+      "what_question": "Motorboat",
+      "where_question": "Proximidad Plataforma",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "plocan_test_003",
+    "pregunta": "En Proximidad Plataforma, ¿cuántos Motorboat se detectaron esta semana?",
+    "respuesta_esperada": {
+      "what_question": "Motorboat",
+      "where_question": "Proximidad Plataforma",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "plocan_test_004",
+    "pregunta": "¿Cuántos Sailboat fueron detectados en Proximidad Plataforma ayer?",
+    "respuesta_esperada": {
+      "what_question": "Sailboat",
+      "where_question": "Proximidad Plataforma",
+      "when_question": "yesterday"
+    }
+  },
+  {
+    "id": "plocan_test_005",
+    "pregunta": "¿Qué número de Motorboat apareció en Rada Sur LP a lo largo de esta semana?",
+    "respuesta_esperada": {
+      "what_question": "Motorboat",
+      "where_question": "Rada Sur LP",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "plocan_test_006",
+    "pregunta": "Facilítame el número de Industrial Ship observados en Rada Sur 1 durante el mes pasado.",
+    "respuesta_esperada": {
+      "what_question": "Industrial Ship",
+      "where_question": "Rada Sur 1",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "plocan_test_007",
+    "pregunta": "Facilítame el número de Human Powered Boat observados en Rada Sur LP durante ayer.",
+    "respuesta_esperada": {
+      "what_question": "Human Powered Boat",
+      "where_question": "Rada Sur LP",
+      "when_question": "yesterday"
+    }
+  },
+  {
+    "id": "plocan_test_008",
+    "pregunta": "¿Cuál fue el total de Cruise Ship vistos en Proximidad Plataforma la semana pasada?",
+    "respuesta_esperada": {
+      "what_question": "Cruise Ship",
+      "where_question": "Proximidad Plataforma",
+      "when_question": "last week"
+    }
+  },
+  {
+    "id": "plocan_test_009",
+    "pregunta": "¿Qué cantidad de Cruise Ship se ha registrado en Rada Sur LP el mes pasado?",
+    "respuesta_esperada": {
+      "what_question": "Cruise Ship",
+      "where_question": "Rada Sur LP",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "plocan_test_010",
+    "pregunta": "¿Tienes los datos sobre los Sailboat en Banco de Ensayos la semana pasada?",
+    "respuesta_esperada": {
+      "what_question": "Sailboat",
+      "where_question": "Banco de Ensayos",
+      "when_question": "last week"
+    }
+  },
+  {
+    "id": "plocan_test_011",
+    "pregunta": "En Rada Sur 2, ¿cuántos Human Powered Boat se detectaron ayer?",
+    "respuesta_esperada": {
+      "what_question": "Human Powered Boat",
+      "where_question": "Rada Sur 2",
+      "when_question": "yesterday"
+    }
+  },
+  {
+    "id": "plocan_test_012",
+    "pregunta": "¿Tienes los datos sobre los Industrial Ship en Rada Sur 1 la semana pasada?",
+    "respuesta_esperada": {
+      "what_question": "Industrial Ship",
+      "where_question": "Rada Sur 1",
+      "when_question": "last week"
+    }
+  },
+  {
+    "id": "plocan_test_013",
+    "pregunta": "¿Cuántos Motorboat fueron detectados en Rada Sur 1 esta semana?",
+    "respuesta_esperada": {
+      "what_question": "Motorboat",
+      "where_question": "Rada Sur 1",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "plocan_test_014",
+    "pregunta": "En Rada Sur LP, ¿cuántos Cruise Ship se detectaron esta semana?",
+    "respuesta_esperada": {
+      "what_question": "Cruise Ship",
+      "where_question": "Rada Sur LP",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "plocan_test_015",
+    "pregunta": "Durante esta semana, ¿cuántas detecciones hubo de Industrial Ship en Rada Sur 2?",
+    "respuesta_esperada": {
+      "what_question": "Industrial Ship",
+      "where_question": "Rada Sur 2",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "plocan_test_016",
+    "pregunta": "¿Cuál fue el total de Motorboat vistos en Rada Sur 1 esta semana?",
+    "respuesta_esperada": {
+      "what_question": "Motorboat",
+      "where_question": "Rada Sur 1",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "plocan_test_017",
+    "pregunta": "¿Cuántos Industrial Ship fueron detectados en Rada Sur LP el mes pasado?",
+    "respuesta_esperada": {
+      "what_question": "Industrial Ship",
+      "where_question": "Rada Sur LP",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "plocan_test_018",
+    "pregunta": "Durante el mes pasado, ¿cuántas detecciones hubo de Human Powered Boat en Banco de Ensayos?",
+    "respuesta_esperada": {
+      "what_question": "Human Powered Boat",
+      "where_question": "Banco de Ensayos",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "plocan_test_019",
+    "pregunta": "¿Qué cantidad de Motorboat se ha registrado en Proximidad Plataforma el mes pasado?",
+    "respuesta_esperada": {
+      "what_question": "Motorboat",
+      "where_question": "Proximidad Plataforma",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "plocan_test_020",
+    "pregunta": "Proporcióname el conteo de Sailboat en Proximidad Plataforma ayer.",
+    "respuesta_esperada": {
+      "what_question": "Sailboat",
+      "where_question": "Proximidad Plataforma",
+      "when_question": "yesterday"
+    }
+  },
+  {
+    "id": "plocan_test_021",
+    "pregunta": "¿Cuántos Sailboat fueron detectados en Rada Sur LP ayer?",
+    "respuesta_esperada": {
+      "what_question": "Sailboat",
+      "where_question": "Rada Sur LP",
+      "when_question": "yesterday"
+    }
+  },
+  {
+    "id": "plocan_test_022",
+    "pregunta": "¿Cuántos Human Powered Boat fueron detectados en Rada Sur 2 esta semana?",
+    "respuesta_esperada": {
+      "what_question": "Human Powered Boat",
+      "where_question": "Rada Sur 2",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "plocan_test_023",
+    "pregunta": "¿Tienes los datos sobre los Motorboat en Rada Sur LP la semana pasada?",
+    "respuesta_esperada": {
+      "what_question": "Motorboat",
+      "where_question": "Rada Sur LP",
+      "when_question": "last week"
+    }
+  },
+  {
+    "id": "plocan_test_024",
+    "pregunta": "En Rada Sur 1, ¿cuántos Cruise Ship se detectaron esta semana?",
+    "respuesta_esperada": {
+      "what_question": "Cruise Ship",
+      "where_question": "Rada Sur 1",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "plocan_test_025",
+    "pregunta": "Durante el mes pasado, ¿cuántas detecciones hubo de Sailboat en Rada Sur 1?",
+    "respuesta_esperada": {
+      "what_question": "Sailboat",
+      "where_question": "Rada Sur 1",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "plocan_test_026",
+    "pregunta": "¿Cuántas veces se registró Motorboat en Banco de Ensayos ayer?",
+    "respuesta_esperada": {
+      "what_question": "Motorboat",
+      "where_question": "Banco de Ensayos",
+      "when_question": "yesterday"
+    }
+  },
+  {
+    "id": "plocan_test_027",
+    "pregunta": "¿Qué cantidad de Sailboat se ha registrado en Rada Sur 2 la semana pasada?",
+    "respuesta_esperada": {
+      "what_question": "Sailboat",
+      "where_question": "Rada Sur 2",
+      "when_question": "last week"
+    }
+  },
+  {
+    "id": "plocan_test_028",
+    "pregunta": "Durante el mes pasado, ¿cuántas detecciones hubo de Human Powered Boat en Rada Sur 2?",
+    "respuesta_esperada": {
+      "what_question": "Human Powered Boat",
+      "where_question": "Rada Sur 2",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "plocan_test_029",
+    "pregunta": "Proporcióname el conteo de Industrial Ship en Rada Sur LP la semana pasada.",
+    "respuesta_esperada": {
+      "what_question": "Industrial Ship",
+      "where_question": "Rada Sur LP",
+      "when_question": "last week"
+    }
+  },
+  {
+    "id": "plocan_test_030",
+    "pregunta": "¿Tienes los datos sobre los Human Powered Boat en Rada Sur 2 esta semana?",
+    "respuesta_esperada": {
+      "what_question": "Human Powered Boat",
+      "where_question": "Rada Sur 2",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "plocan_test_031",
+    "pregunta": "¿Qué cantidad de Sailboat se ha registrado en Proximidad Plataforma esta semana?",
+    "respuesta_esperada": {
+      "what_question": "Sailboat",
+      "where_question": "Proximidad Plataforma",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "plocan_test_032",
+    "pregunta": "¿Qué número de Industrial Ship apareció en Rada Sur LP a lo largo de esta semana?",
+    "respuesta_esperada": {
+      "what_question": "Industrial Ship",
+      "where_question": "Rada Sur LP",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "plocan_test_033",
+    "pregunta": "¿Cuántos Cruise Ship fueron detectados en Rada Sur 1 ayer?",
+    "respuesta_esperada": {
+      "what_question": "Cruise Ship",
+      "where_question": "Rada Sur 1",
+      "when_question": "yesterday"
+    }
+  },
+  {
+    "id": "plocan_test_034",
+    "pregunta": "Durante esta semana, ¿cuántas detecciones hubo de Cruise Ship en Rada Sur 1?",
+    "respuesta_esperada": {
+      "what_question": "Cruise Ship",
+      "where_question": "Rada Sur 1",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "plocan_test_035",
+    "pregunta": "¿Cuántas veces se registró Cruise Ship en Rada Sur 1 ayer?",
+    "respuesta_esperada": {
+      "what_question": "Cruise Ship",
+      "where_question": "Rada Sur 1",
+      "when_question": "yesterday"
+    }
+  },
+  {
+    "id": "plocan_test_036",
+    "pregunta": "Durante el mes pasado, ¿cuántas detecciones hubo de Industrial Ship en Rada Sur LP?",
+    "respuesta_esperada": {
+      "what_question": "Industrial Ship",
+      "where_question": "Rada Sur LP",
+      "when_question": "last month"
+    }
+  },
+  {
+    "id": "plocan_test_037",
+    "pregunta": "¿Tienes los datos sobre los Sailboat en Banco de Ensayos esta semana?",
+    "respuesta_esperada": {
+      "what_question": "Sailboat",
+      "where_question": "Banco de Ensayos",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "plocan_test_038",
+    "pregunta": "¿Cuántas veces se registró Motorboat en Rada Sur 2 ayer?",
+    "respuesta_esperada": {
+      "what_question": "Motorboat",
+      "where_question": "Rada Sur 2",
+      "when_question": "yesterday"
+    }
+  },
+  {
+    "id": "plocan_test_039",
+    "pregunta": "Proporcióname el conteo de Sailboat en Proximidad Plataforma ayer.",
+    "respuesta_esperada": {
+      "what_question": "Sailboat",
+      "where_question": "Proximidad Plataforma",
+      "when_question": "yesterday"
+    }
+  },
+  {
+    "id": "plocan_test_040",
+    "pregunta": "Durante esta semana, ¿cuántas detecciones hubo de Cruise Ship en Rada Sur LP?",
+    "respuesta_esperada": {
+      "what_question": "Cruise Ship",
+      "where_question": "Rada Sur LP",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "plocan_test_041",
+    "pregunta": "¿Cuántos Industrial Ship fueron detectados en Proximidad Plataforma esta semana?",
+    "respuesta_esperada": {
+      "what_question": "Industrial Ship",
+      "where_question": "Proximidad Plataforma",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "plocan_test_042",
+    "pregunta": "¿Cuál fue el total de Sailboat vistos en Rada Sur 2 esta semana?",
+    "respuesta_esperada": {
+      "what_question": "Sailboat",
+      "where_question": "Rada Sur 2",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "plocan_test_043",
+    "pregunta": "En Rada Sur 1, ¿cuántos Industrial Ship se detectaron la semana pasada?",
+    "respuesta_esperada": {
+      "what_question": "Industrial Ship",
+      "where_question": "Rada Sur 1",
+      "when_question": "last week"
+    }
+  },
+  {
+    "id": "plocan_test_044",
+    "pregunta": "¿Cuántas veces se registró Industrial Ship en Rada Sur 1 esta semana?",
+    "respuesta_esperada": {
+      "what_question": "Industrial Ship",
+      "where_question": "Rada Sur 1",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "plocan_test_045",
+    "pregunta": "Durante esta semana, ¿cuántas detecciones hubo de Human Powered Boat en Banco de Ensayos?",
+    "respuesta_esperada": {
+      "what_question": "Human Powered Boat",
+      "where_question": "Banco de Ensayos",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "plocan_test_046",
+    "pregunta": "¿Qué cantidad de Cruise Ship se ha registrado en Rada Sur LP ayer?",
+    "respuesta_esperada": {
+      "what_question": "Cruise Ship",
+      "where_question": "Rada Sur LP",
+      "when_question": "yesterday"
+    }
+  },
+  {
+    "id": "plocan_test_047",
+    "pregunta": "Proporcióname el conteo de Sailboat en Banco de Ensayos esta semana.",
+    "respuesta_esperada": {
+      "what_question": "Sailboat",
+      "where_question": "Banco de Ensayos",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "plocan_test_048",
+    "pregunta": "Facilítame el número de Sailboat observados en Rada Sur LP durante esta semana.",
+    "respuesta_esperada": {
+      "what_question": "Sailboat",
+      "where_question": "Rada Sur LP",
+      "when_question": "this week"
+    }
+  },
+  {
+    "id": "plocan_test_049",
+    "pregunta": "¿Cuántos Industrial Ship fueron detectados en Rada Sur LP la semana pasada?",
+    "respuesta_esperada": {
+      "what_question": "Industrial Ship",
+      "where_question": "Rada Sur LP",
+      "when_question": "last week"
+    }
+  },
+  {
+    "id": "plocan_test_050",
+    "pregunta": "¿Cuál fue el total de Sailboat vistos en Rada Sur 2 el mes pasado?",
+    "respuesta_esperada": {
+      "what_question": "Sailboat",
+      "where_question": "Rada Sur 2",
+      "when_question": "last month"
+    }
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "instancia_mar_001",
+    "pregunta": "Durante el día 15, ¿cuántas detecciones de tipo Cruise Ship hubo en Rada Sur 1?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_mar_002",
+    "pregunta": "¿Cuántos Sailboat se contabilizaron en Banco de Ensayos el la semana pasada?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_mar_003",
+    "pregunta": "Necesito saber el total de Cruise Ship registrados en Banco de Ensayos durante la semana pasada.",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_mar_004",
+    "pregunta": "¿Cuántos Industrial Ship se contabilizaron en Rada Sur 2 el el mes pasado?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_mar_005",
+    "pregunta": "Durante el día 15, ¿cuántas detecciones de tipo Industrial Ship hubo en Rada Sur LP?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_mar_006",
+    "pregunta": "¿Cuántos Human Powered Boat se contabilizaron en Banco de Ensayos el el día 15?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_mar_007",
+    "pregunta": "¿Cuántos Sailboat se contabilizaron en Rada Sur 1 el la semana pasada?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_mar_008",
+    "pregunta": "¿Cuál fue la cifra de Industrial Ship observados en Rada Sur LP el la semana pasada?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_mar_009",
+    "pregunta": "¿Podrías indicarme cuántos Cruise Ship se detectaron en Rada Sur 2 durante el día 15?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_mar_010",
+    "pregunta": "¿Cuántos Sailboat se contabilizaron en Proximidad Plataforma el ayer?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_mar_011",
+    "pregunta": "¿Podrías indicarme cuántos Human Powered Boat se detectaron en Rada Sur 2 durante la semana pasada?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_mar_012",
+    "pregunta": "¿Cuál fue la cifra de Human Powered Boat observados en Rada Sur LP el la semana pasada?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_mar_013",
+    "pregunta": "Durante el mes pasado, ¿cuántas detecciones de tipo Sailboat hubo en Banco de Ensayos?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_mar_014",
+    "pregunta": "¿Cuál fue la cifra de Sailboat observados en Rada Sur LP el el día 15?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_mar_015",
+    "pregunta": "¿Cuántos Cruise Ship se contabilizaron en Banco de Ensayos el la semana pasada?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_mar_016",
+    "pregunta": "Necesito saber el total de Cruise Ship registrados en Rada Sur 1 durante el día 15.",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_mar_017",
+    "pregunta": "¿Podrías indicarme cuántos Human Powered Boat se detectaron en Rada Sur 1 durante la semana pasada?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_mar_018",
+    "pregunta": "¿Cuál fue la cifra de Motorboat observados en Banco de Ensayos el ayer?",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_mar_019",
+    "pregunta": "Necesito saber el total de Human Powered Boat registrados en Rada Sur 2 durante el día 15.",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_mar_020",
+    "pregunta": "Necesito saber el total de Industrial Ship registrados en Rada Sur 1 durante la semana pasada.",
+    "respuesta_esperada": "botQA()"
+  },
+  {
+    "id": "instancia_mar_021",
+    "pregunta": "¿Qué cosas puedes detectar en las cámaras de Anfi?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_mar_022",
+    "pregunta": "¿Qué clases de objetos puede detectar este sistema?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_mar_023",
+    "pregunta": "¿Sobre qué elementos puedo preguntarte?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_mar_024",
+    "pregunta": "¿Qué cosas puedes detectar en las cámaras de Anfi?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_mar_025",
+    "pregunta": "¿Sobre qué elementos puedo preguntarte?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_mar_026",
+    "pregunta": "¿Sobre qué elementos puedo preguntarte?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_mar_027",
+    "pregunta": "¿Qué cosas puedes detectar en las cámaras de Anfi?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_mar_028",
+    "pregunta": "¿Sobre qué elementos puedo preguntarte?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_mar_029",
+    "pregunta": "¿Qué cosas puedes detectar en las cámaras de Anfi?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_mar_030",
+    "pregunta": "¿Sobre qué elementos puedo preguntarte?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_mar_031",
+    "pregunta": "¿Qué cosas puedes detectar en las cámaras de Anfi?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_mar_032",
+    "pregunta": "¿Qué tipos de detecciones puede reconocer el sistema?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_mar_033",
+    "pregunta": "¿Sobre qué elementos puedo preguntarte?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_mar_034",
+    "pregunta": "¿Sobre qué elementos puedo preguntarte?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_mar_035",
+    "pregunta": "¿Sobre qué elementos puedo preguntarte?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_mar_036",
+    "pregunta": "¿Qué clases de objetos puede detectar este sistema?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_mar_037",
+    "pregunta": "¿Qué clases de objetos puede detectar este sistema?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_mar_038",
+    "pregunta": "¿Cuáles son las categorías de detección disponibles?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_mar_039",
+    "pregunta": "¿Qué tipos de detecciones puede reconocer el sistema?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_mar_040",
+    "pregunta": "¿Qué cosas puedes detectar en las cámaras de Anfi?",
+    "respuesta_esperada": "detections()"
+  },
+  {
+    "id": "instancia_mar_041",
+    "pregunta": "¿Puedes darme una gráfica para entender mejor las cifras?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_mar_042",
+    "pregunta": "¿Hay un gráfico que represente estas detecciones?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_mar_043",
+    "pregunta": "¿Me puedes mostrar una representación visual de los resultados?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_mar_044",
+    "pregunta": "¿Puedes darme una gráfica para entender mejor las cifras?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_mar_045",
+    "pregunta": "¿Me puedes mostrar una representación visual de los resultados?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_mar_046",
+    "pregunta": "¿Podrías generar una gráfica con estos datos?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_mar_047",
+    "pregunta": "¿Tienes alguna gráfica con las detecciones?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_mar_048",
+    "pregunta": "¿Hay un gráfico que represente estas detecciones?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_mar_049",
+    "pregunta": "¿Me puedes mostrar una representación visual de los resultados?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_mar_050",
+    "pregunta": "¿Hay un gráfico que represente estas detecciones?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_mar_051",
+    "pregunta": "¿Tienes alguna gráfica con las detecciones?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_mar_052",
+    "pregunta": "¿Puedes darme una gráfica para entender mejor las cifras?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_mar_053",
+    "pregunta": "¿Puedes darme una gráfica para entender mejor las cifras?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_mar_054",
+    "pregunta": "¿Puedes darme una gráfica para entender mejor las cifras?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_mar_055",
+    "pregunta": "¿Puedes darme una gráfica para entender mejor las cifras?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_mar_056",
+    "pregunta": "¿Me puedes mostrar una representación visual de los resultados?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_mar_057",
+    "pregunta": "¿Tienes alguna gráfica con las detecciones?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_mar_058",
+    "pregunta": "¿Podrías generar una gráfica con estos datos?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_mar_059",
+    "pregunta": "¿Tienes alguna gráfica con las detecciones?",
+    "respuesta_esperada": "graphicGen()"
+  },
+  {
+    "id": "instancia_mar_060",
+    "pregunta": "¿Tienes alguna gráfica con las detecciones?",
+    "respuesta_esperada": "graphicGen()"
+  }
+]

@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "mar_test_001",
+    "pregunta": "El el día 15, ¿cuál fue la cifra de Sailboat en Rada Sur LP?",
+    "contexto": {
+      "Industrial Ship": 81,
+      "Cruise Ship": 74,
+      "Sailboat": 49,
+      "Human Powered Boat": 74,
+      "Motorboat": 71
+    },
+    "what_answer": "Sailboat",
+    "respuesta_esperada": "49"
+  },
+  {
+    "id": "mar_test_002",
+    "pregunta": "¿Hubo presencia de Cruise Ship en Banco de Ensayos el el mes pasado? ¿Cuántos?",
+    "contexto": {
+      "Industrial Ship": 19,
+      "Cruise Ship": 69,
+      "Sailboat": 37,
+      "Human Powered Boat": 10,
+      "Motorboat": 2
+    },
+    "what_answer": "Cruise Ship",
+    "respuesta_esperada": "69"
+  },
+  {
+    "id": "mar_test_003",
+    "pregunta": "¿Hubo presencia de Human Powered Boat en Banco de Ensayos el la semana pasada? ¿Cuántos?",
+    "contexto": {
+      "Industrial Ship": 84,
+      "Cruise Ship": 37,
+      "Sailboat": 97,
+      "Human Powered Boat": 64,
+      "Motorboat": 44
+    },
+    "what_answer": "Human Powered Boat",
+    "respuesta_esperada": "64"
+  },
+  {
+    "id": "mar_test_004",
+    "pregunta": "¿Qué número de Sailboat se registró en Rada Sur 2 durante ayer?",
+    "contexto": {
+      "Industrial Ship": 87,
+      "Cruise Ship": 87,
+      "Sailboat": 32,
+      "Human Powered Boat": 74,
+      "Motorboat": 54
+    },
+    "what_answer": "Sailboat",
+    "respuesta_esperada": "32"
+  },
+  {
+    "id": "mar_test_005",
+    "pregunta": "El el día 15, ¿cuál fue la cifra de Motorboat en Banco de Ensayos?",
+    "contexto": {
+      "Industrial Ship": 49,
+      "Cruise Ship": 91,
+      "Sailboat": 25,
+      "Human Powered Boat": 53,
+      "Motorboat": 42
+    },
+    "what_answer": "Motorboat",
+    "respuesta_esperada": "42"
+  },
+  {
+    "id": "mar_test_006",
+    "pregunta": "Para Rada Sur 1 y la fecha ayer, ¿cuántas detecciones hubo de Industrial Ship?",
+    "contexto": {
+      "Industrial Ship": 40,
+      "Cruise Ship": 85,
+      "Sailboat": 21,
+      "Human Powered Boat": 93,
+      "Motorboat": 12
+    },
+    "what_answer": "Industrial Ship",
+    "respuesta_esperada": "40"
+  },
+  {
+    "id": "mar_test_007",
+    "pregunta": "¿Hubo presencia de Cruise Ship en Banco de Ensayos la semana pasada? ¿Cuántos?",
+    "contexto": {
+      "Industrial Ship": 7,
+      "Cruise Ship": 80,
+      "Sailboat": 96,
+      "Human Powered Boat": 25,
+      "Motorboat": 2
+    },
+    "what_answer": "Cruise Ship",
+    "respuesta_esperada": "80"
+  },
+  {
+    "id": "mar_test_008",
+    "pregunta": "¿Cuántos registros se obtuvieron de Cruise Ship en Rada Sur 2 durante la semana pasada?",
+    "contexto": {
+      "Industrial Ship": 59,
+      "Cruise Ship": 88,
+      "Sailboat": 91,
+      "Human Powered Boat": 13,
+      "Motorboat": 59
+    },
+    "what_answer": "Cruise Ship",
+    "respuesta_esperada": "88"
+  },
+  {
+    "id": "mar_test_009",
+    "pregunta": "Ayer, ¿cuál fue la cifra de Motorboat en Rada Sur 2?",
+    "contexto": {
+      "Industrial Ship": 33,
+      "Cruise Ship": 63,
+      "Sailboat": 21,
+      "Human Powered Boat": 7,
+      "Motorboat": 13
+    },
+    "what_answer": "Motorboat",
+    "respuesta_esperada": "13"
+  },
+  {
+    "id": "mar_test_010",
+    "pregunta": "Informe el número de Sailboat vistos el el mes pasado en Proximidad Plataforma.",
+    "contexto": {
+      "Industrial Ship": 27,
+      "Cruise Ship": 26,
+      "Sailboat": 84,
+      "Human Powered Boat": 3,
+      "Motorboat": 57
+    },
+    "what_answer": "Sailboat",
+    "respuesta_esperada": "84"
+  },
+  {
+    "id": "mar_test_011",
+    "pregunta": "¿Cuántos registros se obtuvieron de Motorboat en Proximidad Plataforma durante el día 15?",
+    "contexto": {
+      "Industrial Ship": 4,
+      "Cruise Ship": 81,
+      "Sailboat": 4,
+      "Human Powered Boat": 56,
+      "Motorboat": 63
+    },
+    "what_answer": "Motorboat",
+    "respuesta_esperada": "63"
+  },
+  {
+    "id": "mar_test_012",
+    "pregunta": "El el día 15, ¿cuál fue la cifra de Industrial Ship en Rada Sur 1?",
+    "contexto": {
+      "Industrial Ship": 59,
+      "Cruise Ship": 97,
+      "Sailboat": 65,
+      "Human Powered Boat": 54,
+      "Motorboat": 69
+    },
+    "what_answer": "Industrial Ship",
+    "respuesta_esperada": "59"
+  },
+  {
+    "id": "mar_test_013",
+    "pregunta": "Para Rada Sur 1 y la fecha el mes pasado, ¿cuántas detecciones hubo de Human Powered Boat?",
+    "contexto": {
+      "Industrial Ship": 2,
+      "Cruise Ship": 74,
+      "Sailboat": 31,
+      "Human Powered Boat": 70,
+      "Motorboat": 80
+    },
+    "what_answer": "Human Powered Boat",
+    "respuesta_esperada": "70"
+  },
+  {
+    "id": "mar_test_014",
+    "pregunta": "¿Cuántos registros se obtuvieron de Sailboat en Rada Sur 1 durante el mes pasado?",
+    "contexto": {
+      "Industrial Ship": 4,
+      "Cruise Ship": 37,
+      "Sailboat": 71,
+      "Human Powered Boat": 86,
+      "Motorboat": 10
+    },
+    "what_answer": "Sailboat",
+    "respuesta_esperada": "71"
+  },
+  {
+    "id": "mar_test_015",
+    "pregunta": "Para Banco de Ensayos y la fecha ayer, ¿cuántas detecciones hubo de Sailboat?",
+    "contexto": {
+      "Industrial Ship": 43,
+      "Cruise Ship": 11,
+      "Sailboat": 68,
+      "Human Powered Boat": 34,
+      "Motorboat": 54
+    },
+    "what_answer": "Sailboat",
+    "respuesta_esperada": "68"
+  },
+  {
+    "id": "mar_test_016",
+    "pregunta": "¿Podrías consultar cuántos Human Powered Boat aparecieron en Rada Sur 2 el el día 15?",
+    "contexto": {
+      "Industrial Ship": 61,
+      "Cruise Ship": 69,
+      "Sailboat": 14,
+      "Human Powered Boat": 88,
+      "Motorboat": 1
+    },
+    "what_answer": "Human Powered Boat",
+    "respuesta_esperada": "88"
+  },
+  {
+    "id": "mar_test_017",
+    "pregunta": "¿Cuántos Human Powered Boat se contabilizaron en Rada Sur 2 el la semana pasada?",
+    "contexto": {
+      "Industrial Ship": 97,
+      "Cruise Ship": 96,
+      "Sailboat": 39,
+      "Human Powered Boat": 25,
+      "Motorboat": 40
+    },
+    "what_answer": "Human Powered Boat",
+    "respuesta_esperada": "25"
+  },
+  {
+    "id": "mar_test_018",
+    "pregunta": "¿Podrías consultar cuántos Industrial Ship aparecieron en Rada Sur 2 el el mes pasado?",
+    "contexto": {
+      "Industrial Ship": 72,
+      "Cruise Ship": 23,
+      "Sailboat": 2,
+      "Human Powered Boat": 49,
+      "Motorboat": 1
+    },
+    "what_answer": "Industrial Ship",
+    "respuesta_esperada": "72"
+  },
+  {
+    "id": "mar_test_019",
+    "pregunta": "Dame el número de Human Powered Boat fueron detectados en Proximidad Plataforma durante el día 15?",
+    "contexto": {
+      "Industrial Ship": 95,
+      "Cruise Ship": 21,
+      "Sailboat": 71,
+      "Human Powered Boat": 96,
+      "Motorboat": 39
+    },
+    "what_answer": "Human Powered Boat",
+    "respuesta_esperada": "96"
+  },
+  {
+    "id": "mar_test_020",
+    "pregunta": "Para Proximidad Plataforma y la fecha el mes pasado, ¿cuántas detecciones hubo de total?",
+    "contexto": {
+      "Industrial Ship": 9,
+      "Cruise Ship": 19,
+      "Sailboat": 73,
+      "Human Powered Boat": 42,
+      "Motorboat": 52
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "195"
+  },
+  {
+    "id": "mar_test_021",
+    "pregunta": "¿Qué número de Sailboat se registró en Rada Sur 2 durante ayer?",
+    "contexto": {
+      "Industrial Ship": 73,
+      "Cruise Ship": 71,
+      "Sailboat": 31,
+      "Human Powered Boat": 65,
+      "Motorboat": 81
+    },
+    "what_answer": "Sailboat",
+    "respuesta_esperada": "31"
+  },
+  {
+    "id": "mar_test_022",
+    "pregunta": "¿Cuántos Human Powered Boat se contabilizaron en Banco de Ensayos el ayer?",
+    "contexto": {
+      "Industrial Ship": 43,
+      "Cruise Ship": 63,
+      "Sailboat": 36,
+      "Human Powered Boat": 9,
+      "Motorboat": 68
+    },
+    "what_answer": "Human Powered Boat",
+    "respuesta_esperada": "9"
+  },
+  {
+    "id": "mar_test_023",
+    "pregunta": "¿Podrías consultar cuántos total aparecieron en Rada Sur LP el el día 15?",
+    "contexto": {
+      "Industrial Ship": 37,
+      "Cruise Ship": 43,
+      "Sailboat": 49,
+      "Human Powered Boat": 58,
+      "Motorboat": 53
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "240"
+  },
+  {
+    "id": "mar_test_024",
+    "pregunta": "ayer, en Proximidad Plataforma, ¿cuántos Motorboat se detectaron?",
+    "contexto": {
+      "Industrial Ship": 50,
+      "Cruise Ship": 86,
+      "Sailboat": 81,
+      "Human Powered Boat": 82,
+      "Motorboat": 7
+    },
+    "what_answer": "Motorboat",
+    "respuesta_esperada": "7"
+  },
+  {
+    "id": "mar_test_025",
+    "pregunta": "¿Qué número de Human Powered Boat se registró en Banco de Ensayos durante la semana pasada?",
+    "contexto": {
+      "Industrial Ship": 58,
+      "Cruise Ship": 99,
+      "Sailboat": 7,
+      "Human Powered Boat": 84,
+      "Motorboat": 38
+    },
+    "what_answer": "Human Powered Boat",
+    "respuesta_esperada": "84"
+  },
+  {
+    "id": "mar_test_026",
+    "pregunta": "Para Banco de Ensayos y la fecha el día 15, ¿cuántas detecciones hubo de Cruise Ship?",
+    "contexto": {
+      "Industrial Ship": 60,
+      "Cruise Ship": 91,
+      "Sailboat": 80,
+      "Human Powered Boat": 16,
+      "Motorboat": 27
+    },
+    "what_answer": "Cruise Ship",
+    "respuesta_esperada": "91"
+  },
+  {
+    "id": "mar_test_027",
+    "pregunta": "¿Podrías facilitarme el conteo de Industrial Ship fueron detectados en Rada Sur LP durante la semana pasada?",
+    "contexto": {
+      "Industrial Ship": 41,
+      "Cruise Ship": 77,
+      "Sailboat": 61,
+      "Human Powered Boat": 43,
+      "Motorboat": 68
+    },
+    "what_answer": "Industrial Ship",
+    "respuesta_esperada": "41"
+  },
+  {
+    "id": "mar_test_028",
+    "pregunta": "el día 15, en Banco de Ensayos, ¿cuántos Human Powered Boat se detectaron?",
+    "contexto": {
+      "Industrial Ship": 71,
+      "Cruise Ship": 80,
+      "Sailboat": 79,
+      "Human Powered Boat": 78,
+      "Motorboat": 25
+    },
+    "what_answer": "Human Powered Boat",
+    "respuesta_esperada": "78"
+  },
+  {
+    "id": "mar_test_029",
+    "pregunta": "¿Hubo presencia de total en Rada Sur LP el la semana pasada? ¿Cuántos?",
+    "contexto": {
+      "Industrial Ship": 32,
+      "Cruise Ship": 45,
+      "Sailboat": 16,
+      "Human Powered Boat": 46,
+      "Motorboat": 56
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "195"
+  },
+  {
+    "id": "mar_test_030",
+    "pregunta": "El el mes pasado, ¿cuál fue la cifra de Industrial Ship en Proximidad Plataforma?",
+    "contexto": {
+      "Industrial Ship": 7,
+      "Cruise Ship": 76,
+      "Sailboat": 0,
+      "Human Powered Boat": 90,
+      "Motorboat": 1
+    },
+    "what_answer": "Industrial Ship",
+    "respuesta_esperada": "7"
+  },
+  {
+    "id": "mar_test_031",
+    "pregunta": "Informe el número de Industrial Ship vistos el ayer en Banco de Ensayos.",
+    "contexto": {
+      "Industrial Ship": 95,
+      "Cruise Ship": 11,
+      "Sailboat": 16,
+      "Human Powered Boat": 89,
+      "Motorboat": 46
+    },
+    "what_answer": "Industrial Ship",
+    "respuesta_esperada": "95"
+  },
+  {
+    "id": "mar_test_032",
+    "pregunta": "¿Podrías consultar cuántos Motorboat aparecieron en Rada Sur 1 el el mes pasado?",
+    "contexto": {
+      "Industrial Ship": 34,
+      "Cruise Ship": 65,
+      "Sailboat": 60,
+      "Human Powered Boat": 94,
+      "Motorboat": 72
+    },
+    "what_answer": "Motorboat",
+    "respuesta_esperada": "72"
+  },
+  {
+    "id": "mar_test_033",
+    "pregunta": "El ayer, ¿cuál fue la cifra de Industrial Ship en Rada Sur 1?",
+    "contexto": {
+      "Industrial Ship": 49,
+      "Cruise Ship": 66,
+      "Sailboat": 69,
+      "Human Powered Boat": 55,
+      "Motorboat": 0
+    },
+    "what_answer": "Industrial Ship",
+    "respuesta_esperada": "49"
+  },
+  {
+    "id": "mar_test_034",
+    "pregunta": "El el día 15, ¿cuál fue la cifra de Cruise Ship en Proximidad Plataforma?",
+    "contexto": {
+      "Industrial Ship": 81,
+      "Cruise Ship": 90,
+      "Sailboat": 26,
+      "Human Powered Boat": 43,
+      "Motorboat": 62
+    },
+    "what_answer": "Cruise Ship",
+    "respuesta_esperada": "90"
+  },
+  {
+    "id": "mar_test_035",
+    "pregunta": "El ayer, ¿cuál fue la cifra de total en Banco de Ensayos?",
+    "contexto": {
+      "Industrial Ship": 44,
+      "Cruise Ship": 54,
+      "Sailboat": 20,
+      "Human Powered Boat": 25,
+      "Motorboat": 13
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "156"
+  },
+  {
+    "id": "mar_test_036",
+    "pregunta": "El el mes pasado, ¿cuál fue la cifra de Human Powered Boat en Banco de Ensayos?",
+    "contexto": {
+      "Industrial Ship": 50,
+      "Cruise Ship": 31,
+      "Sailboat": 53,
+      "Human Powered Boat": 86,
+      "Motorboat": 17
+    },
+    "what_answer": "Human Powered Boat",
+    "respuesta_esperada": "86"
+  },
+  {
+    "id": "mar_test_037",
+    "pregunta": "¿Cuántos registros se obtuvieron de total en Rada Sur LP durante la semana pasada?",
+    "contexto": {
+      "Industrial Ship": 52,
+      "Cruise Ship": 3,
+      "Sailboat": 20,
+      "Human Powered Boat": 16,
+      "Motorboat": 41
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "132"
+  },
+  {
+    "id": "mar_test_038",
+    "pregunta": "Informe el número de Cruise Ship vistos el la semana pasada en Rada Sur 2.",
+    "contexto": {
+      "Industrial Ship": 25,
+      "Cruise Ship": 56,
+      "Sailboat": 86,
+      "Human Powered Boat": 99,
+      "Motorboat": 60
+    },
+    "what_answer": "Cruise Ship",
+    "respuesta_esperada": "56"
+  },
+  {
+    "id": "mar_test_039",
+    "pregunta": "¿Cuántos registros se obtuvieron de Motorboat en Rada Sur 1 durante el día 15?",
+    "contexto": {
+      "Industrial Ship": 73,
+      "Cruise Ship": 84,
+      "Sailboat": 60,
+      "Human Powered Boat": 77,
+      "Motorboat": 90
+    },
+    "what_answer": "Motorboat",
+    "respuesta_esperada": "90"
+  },
+  {
+    "id": "mar_test_040",
+    "pregunta": "Para Rada Sur LP y la fecha el día 15, ¿cuántas detecciones hubo de Industrial Ship?",
+    "contexto": {
+      "Industrial Ship": 56,
+      "Cruise Ship": 17,
+      "Sailboat": 53,
+      "Human Powered Boat": 91,
+      "Motorboat": 65
+    },
+    "what_answer": "Industrial Ship",
+    "respuesta_esperada": "56"
+  },
+  {
+    "id": "mar_test_041",
+    "pregunta": "¿Hubo presencia de Motorboat en Rada Sur LP el ayer? ¿Cuántos?",
+    "contexto": {
+      "Industrial Ship": 81,
+      "Cruise Ship": 64,
+      "Sailboat": 67,
+      "Human Powered Boat": 22,
+      "Motorboat": 97
+    },
+    "what_answer": "Motorboat",
+    "respuesta_esperada": "97"
+  },
+  {
+    "id": "mar_test_042",
+    "pregunta": "el mes pasado, en Banco de Ensayos, ¿cuántos Sailboat se detectaron?",
+    "contexto": {
+      "Industrial Ship": 46,
+      "Cruise Ship": 20,
+      "Sailboat": 79,
+      "Human Powered Boat": 40,
+      "Motorboat": 84
+    },
+    "what_answer": "Sailboat",
+    "respuesta_esperada": "79"
+  },
+  {
+    "id": "mar_test_043",
+    "pregunta": "¿Tienes datos sobre Motorboat fueron detectados en Banco de Ensayos durante la semana pasada?",
+    "contexto": {
+      "Industrial Ship": 55,
+      "Cruise Ship": 3,
+      "Sailboat": 47,
+      "Human Powered Boat": 47,
+      "Motorboat": 76
+    },
+    "what_answer": "Motorboat",
+    "respuesta_esperada": "76"
+  },
+  {
+    "id": "mar_test_044",
+    "pregunta": "El ayer, ¿cuál fue la cifra de total en Banco de Ensayos?",
+    "contexto": {
+      "Industrial Ship": 73,
+      "Cruise Ship": 84,
+      "Sailboat": 49,
+      "Human Powered Boat": 4,
+      "Motorboat": 76
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "286"
+  },
+  {
+    "id": "mar_test_045",
+    "pregunta": "la semana pasada, en Proximidad Plataforma, ¿cuántos Sailboat se detectaron?",
+    "contexto": {
+      "Industrial Ship": 16,
+      "Cruise Ship": 15,
+      "Sailboat": 91,
+      "Human Powered Boat": 93,
+      "Motorboat": 20
+    },
+    "what_answer": "Sailboat",
+    "respuesta_esperada": "91"
+  },
+  {
+    "id": "mar_test_046",
+    "pregunta": "ayer, en Rada Sur LP, ¿cuántos Industrial Ship se detectaron?",
+    "contexto": {
+      "Industrial Ship": 89,
+      "Cruise Ship": 0,
+      "Sailboat": 21,
+      "Human Powered Boat": 49,
+      "Motorboat": 29
+    },
+    "what_answer": "Industrial Ship",
+    "respuesta_esperada": "89"
+  },
+  {
+    "id": "mar_test_047",
+    "pregunta": "¿Qué número de Motorboat se registró en Rada Sur 1 durante la semana pasada?",
+    "contexto": {
+      "Industrial Ship": 90,
+      "Cruise Ship": 31,
+      "Sailboat": 21,
+      "Human Powered Boat": 7,
+      "Motorboat": 61
+    },
+    "what_answer": "Motorboat",
+    "respuesta_esperada": "61"
+  },
+  {
+    "id": "mar_test_048",
+    "pregunta": "¿Qué número de Motorboat se registró en Rada Sur LP durante el día 15?",
+    "contexto": {
+      "Industrial Ship": 13,
+      "Cruise Ship": 61,
+      "Sailboat": 32,
+      "Human Powered Boat": 56,
+      "Motorboat": 16
+    },
+    "what_answer": "Motorboat",
+    "respuesta_esperada": "16"
+  },
+  {
+    "id": "mar_test_049",
+    "pregunta": "¿Cuántos total se contabilizaron en Rada Sur 1 el ayer?",
+    "contexto": {
+      "Industrial Ship": 15,
+      "Cruise Ship": 22,
+      "Sailboat": 48,
+      "Human Powered Boat": 23,
+      "Motorboat": 41
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "149"
+  },
+  {
+    "id": "mar_test_050",
+    "pregunta": "¿Cuántos registros se obtuvieron de Motorboat en Rada Sur LP durante el día 15?",
+    "contexto": {
+      "Industrial Ship": 90,
+      "Cruise Ship": 35,
+      "Sailboat": 40,
+      "Human Powered Boat": 48,
+      "Motorboat": 62
+    },
+    "what_answer": "Motorboat",
+    "respuesta_esperada": "62"
+  },
+  {
+    "id": "mar_test_ext_001",
+    "pregunta": "¿Cuántos Motorboat se detectaron en Rada Sur 2?",
+    "contexto": {
+      "Industrial Ship": 2,
+      "Cruise Ship": 31,
+      "Sailboat": 43,
+      "Human Powered Boat": 100,
+      "Motorboat": 49
+    },
+    "what_answer": "Motorboat",
+    "respuesta_esperada": "49"
+  },
+  {
+    "id": "mar_test_ext_002",
+    "pregunta": "¿Cuál fue la media de detecciones por tipo en Proximidad Plataforma?",
+    "contexto": {
+      "Industrial Ship": 30,
+      "Cruise Ship": 62,
+      "Sailboat": 94,
+      "Human Powered Boat": 68,
+      "Motorboat": 87
+    },
+    "what_answer": "media",
+    "respuesta_esperada": "68.2"
+  },
+  {
+    "id": "mar_test_ext_003",
+    "pregunta": "¿Cuántos Motorboat se detectaron en Banco de Ensayos?",
+    "contexto": {
+      "Industrial Ship": 51,
+      "Cruise Ship": 93,
+      "Sailboat": 64,
+      "Human Powered Boat": 52,
+      "Motorboat": 5
+    },
+    "what_answer": "Motorboat",
+    "respuesta_esperada": "5"
+  },
+  {
+    "id": "mar_test_ext_004",
+    "pregunta": "¿Qué tipo de barco tuvo el menor número de detecciones en Rada Sur LP?",
+    "contexto": {
+      "Industrial Ship": 17,
+      "Cruise Ship": 34,
+      "Sailboat": 96,
+      "Human Powered Boat": 30,
+      "Motorboat": 0
+    },
+    "what_answer": "minimo",
+    "respuesta_esperada": "Motorboat"
+  },
+  {
+    "id": "mar_test_ext_005",
+    "pregunta": "¿Cuál fue la media de detecciones por tipo en Rada Sur 2?",
+    "contexto": {
+      "Industrial Ship": 99,
+      "Cruise Ship": 25,
+      "Sailboat": 75,
+      "Human Powered Boat": 98,
+      "Motorboat": 56
+    },
+    "what_answer": "media",
+    "respuesta_esperada": "70.6"
+  },
+  {
+    "id": "mar_test_ext_006",
+    "pregunta": "¿Cuál fue la mediana de detecciones en Banco de Ensayos?",
+    "contexto": {
+      "Industrial Ship": 85,
+      "Cruise Ship": 0,
+      "Sailboat": 15,
+      "Human Powered Boat": 39,
+      "Motorboat": 34
+    },
+    "what_answer": "mediana",
+    "respuesta_esperada": "34"
+  },
+  {
+    "id": "mar_test_ext_007",
+    "pregunta": "¿Qué tipo de barco tuvo el menor número de detecciones en Banco de Ensayos?",
+    "contexto": {
+      "Industrial Ship": 42,
+      "Cruise Ship": 17,
+      "Sailboat": 92,
+      "Human Powered Boat": 77,
+      "Motorboat": 51
+    },
+    "what_answer": "minimo",
+    "respuesta_esperada": "Cruise Ship"
+  },
+  {
+    "id": "mar_test_ext_008",
+    "pregunta": "¿Cuál fue la media de detecciones por tipo en Banco de Ensayos?",
+    "contexto": {
+      "Industrial Ship": 42,
+      "Cruise Ship": 45,
+      "Sailboat": 53,
+      "Human Powered Boat": 10,
+      "Motorboat": 42
+    },
+    "what_answer": "media",
+    "respuesta_esperada": "38.4"
+  },
+  {
+    "id": "mar_test_ext_009",
+    "pregunta": "¿Cuál fue la mediana de detecciones en Rada Sur 1?",
+    "contexto": {
+      "Industrial Ship": 92,
+      "Cruise Ship": 42,
+      "Sailboat": 13,
+      "Human Powered Boat": 80,
+      "Motorboat": 74
+    },
+    "what_answer": "mediana",
+    "respuesta_esperada": "74"
+  },
+  {
+    "id": "mar_test_ext_010",
+    "pregunta": "¿Cuántos Motorboat se detectaron en Rada Sur LP?",
+    "contexto": {
+      "Industrial Ship": 69,
+      "Cruise Ship": 59,
+      "Sailboat": 90,
+      "Human Powered Boat": 3,
+      "Motorboat": 45
+    },
+    "what_answer": "Motorboat",
+    "respuesta_esperada": "45"
+  },
+  {
+    "id": "mar_test_ext_011",
+    "pregunta": "¿Qué tipo de detección fue la más frecuente en Proximidad Plataforma?",
+    "contexto": {
+      "Industrial Ship": 92,
+      "Cruise Ship": 95,
+      "Sailboat": 51,
+      "Human Powered Boat": 78,
+      "Motorboat": 50
+    },
+    "what_answer": "maximo",
+    "respuesta_esperada": "Cruise Ship"
+  },
+  {
+    "id": "mar_test_ext_012",
+    "pregunta": "¿Qué tipo de detección fue la más frecuente en Rada Sur LP?",
+    "contexto": {
+      "Industrial Ship": 60,
+      "Cruise Ship": 91,
+      "Sailboat": 73,
+      "Human Powered Boat": 34,
+      "Motorboat": 79
+    },
+    "what_answer": "maximo",
+    "respuesta_esperada": "Cruise Ship"
+  },
+  {
+    "id": "mar_test_ext_013",
+    "pregunta": "¿Cuál fue la mediana de detecciones en Rada Sur 2?",
+    "contexto": {
+      "Industrial Ship": 99,
+      "Cruise Ship": 40,
+      "Sailboat": 51,
+      "Human Powered Boat": 88,
+      "Motorboat": 57
+    },
+    "what_answer": "mediana",
+    "respuesta_esperada": "57"
+  },
+  {
+    "id": "mar_test_ext_014",
+    "pregunta": "¿Qué tipo de barco tuvo el menor número de detecciones en Rada Sur LP?",
+    "contexto": {
+      "Industrial Ship": 35,
+      "Cruise Ship": 5,
+      "Sailboat": 100,
+      "Human Powered Boat": 43,
+      "Motorboat": 23
+    },
+    "what_answer": "minimo",
+    "respuesta_esperada": "Cruise Ship"
+  },
+  {
+    "id": "mar_test_ext_015",
+    "pregunta": "¿Cuál fue el total de barcos detectados en Proximidad Plataforma?",
+    "contexto": {
+      "Industrial Ship": 54,
+      "Cruise Ship": 52,
+      "Sailboat": 7,
+      "Human Powered Boat": 19,
+      "Motorboat": 29
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "161"
+  },
+  {
+    "id": "mar_test_ext_016",
+    "pregunta": "¿Cuántos Cruise Ship se detectaron en Rada Sur LP?",
+    "contexto": {
+      "Industrial Ship": 70,
+      "Cruise Ship": 80,
+      "Sailboat": 44,
+      "Human Powered Boat": 18,
+      "Motorboat": 93
+    },
+    "what_answer": "Cruise Ship",
+    "respuesta_esperada": "80"
+  },
+  {
+    "id": "mar_test_ext_017",
+    "pregunta": "¿Cuál fue la mediana de detecciones en Rada Sur 2?",
+    "contexto": {
+      "Industrial Ship": 53,
+      "Cruise Ship": 38,
+      "Sailboat": 77,
+      "Human Powered Boat": 26,
+      "Motorboat": 58
+    },
+    "what_answer": "mediana",
+    "respuesta_esperada": "53"
+  },
+  {
+    "id": "mar_test_ext_018",
+    "pregunta": "¿Cuál fue la media de detecciones por tipo en Rada Sur 2?",
+    "contexto": {
+      "Industrial Ship": 39,
+      "Cruise Ship": 15,
+      "Sailboat": 53,
+      "Human Powered Boat": 50,
+      "Motorboat": 73
+    },
+    "what_answer": "media",
+    "respuesta_esperada": "46.0"
+  },
+  {
+    "id": "mar_test_ext_019",
+    "pregunta": "¿Cuántos Motorboat se detectaron en Rada Sur LP?",
+    "contexto": {
+      "Industrial Ship": 78,
+      "Cruise Ship": 45,
+      "Sailboat": 20,
+      "Human Powered Boat": 38,
+      "Motorboat": 35
+    },
+    "what_answer": "Motorboat",
+    "respuesta_esperada": "35"
+  },
+  {
+    "id": "mar_test_ext_020",
+    "pregunta": "¿Qué tipo de detección fue la más frecuente en Rada Sur 1?",
+    "contexto": {
+      "Industrial Ship": 60,
+      "Cruise Ship": 91,
+      "Sailboat": 86,
+      "Human Powered Boat": 19,
+      "Motorboat": 49
+    },
+    "what_answer": "maximo",
+    "respuesta_esperada": "Cruise Ship"
+  },
+  {
+    "id": "mar_test_ext_021",
+    "pregunta": "¿Cuál fue el total de barcos detectados en Rada Sur LP?",
+    "contexto": {
+      "Industrial Ship": 94,
+      "Cruise Ship": 97,
+      "Sailboat": 23,
+      "Human Powered Boat": 62,
+      "Motorboat": 37
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "313"
+  },
+  {
+    "id": "mar_test_ext_022",
+    "pregunta": "¿Qué tipo de detección fue la más frecuente en Banco de Ensayos?",
+    "contexto": {
+      "Industrial Ship": 20,
+      "Cruise Ship": 27,
+      "Sailboat": 1,
+      "Human Powered Boat": 58,
+      "Motorboat": 93
+    },
+    "what_answer": "maximo",
+    "respuesta_esperada": "Motorboat"
+  },
+  {
+    "id": "mar_test_ext_023",
+    "pregunta": "¿Cuántos Motorboat se detectaron en Rada Sur 2?",
+    "contexto": {
+      "Industrial Ship": 19,
+      "Cruise Ship": 35,
+      "Sailboat": 25,
+      "Human Powered Boat": 93,
+      "Motorboat": 0
+    },
+    "what_answer": "Motorboat",
+    "respuesta_esperada": "0"
+  },
+  {
+    "id": "mar_test_ext_024",
+    "pregunta": "¿Cuál fue la media de detecciones por tipo en Proximidad Plataforma?",
+    "contexto": {
+      "Industrial Ship": 82,
+      "Cruise Ship": 89,
+      "Sailboat": 88,
+      "Human Powered Boat": 46,
+      "Motorboat": 39
+    },
+    "what_answer": "media",
+    "respuesta_esperada": "68.8"
+  },
+  {
+    "id": "mar_test_ext_025",
+    "pregunta": "¿Cuál fue el total de barcos detectados en Rada Sur LP?",
+    "contexto": {
+      "Industrial Ship": 58,
+      "Cruise Ship": 49,
+      "Sailboat": 28,
+      "Human Powered Boat": 35,
+      "Motorboat": 15
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "185"
+  },
+  {
+    "id": "mar_test_ext_026",
+    "pregunta": "¿Cuántos Motorboat se detectaron en Rada Sur LP?",
+    "contexto": {
+      "Industrial Ship": 81,
+      "Cruise Ship": 24,
+      "Sailboat": 93,
+      "Human Powered Boat": 0,
+      "Motorboat": 64
+    },
+    "what_answer": "Motorboat",
+    "respuesta_esperada": "64"
+  },
+  {
+    "id": "mar_test_ext_027",
+    "pregunta": "¿Cuál fue el total de barcos detectados en Rada Sur LP?",
+    "contexto": {
+      "Industrial Ship": 99,
+      "Cruise Ship": 71,
+      "Sailboat": 9,
+      "Human Powered Boat": 64,
+      "Motorboat": 50
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "293"
+  },
+  {
+    "id": "mar_test_ext_028",
+    "pregunta": "¿Qué tipo de barco tuvo el menor número de detecciones en Rada Sur 1?",
+    "contexto": {
+      "Industrial Ship": 94,
+      "Cruise Ship": 15,
+      "Sailboat": 60,
+      "Human Powered Boat": 67,
+      "Motorboat": 43
+    },
+    "what_answer": "minimo",
+    "respuesta_esperada": "Cruise Ship"
+  },
+  {
+    "id": "mar_test_ext_029",
+    "pregunta": "¿Cuál fue la media de detecciones por tipo en Rada Sur 2?",
+    "contexto": {
+      "Industrial Ship": 28,
+      "Cruise Ship": 93,
+      "Sailboat": 57,
+      "Human Powered Boat": 90,
+      "Motorboat": 71
+    },
+    "what_answer": "media",
+    "respuesta_esperada": "67.8"
+  },
+  {
+    "id": "mar_test_ext_030",
+    "pregunta": "¿Cuál fue el total de barcos detectados en Rada Sur 2?",
+    "contexto": {
+      "Industrial Ship": 84,
+      "Cruise Ship": 46,
+      "Sailboat": 34,
+      "Human Powered Boat": 47,
+      "Motorboat": 27
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "238"
+  },
+  {
+    "id": "mar_test_ext_031",
+    "pregunta": "¿Cuántos Sailboat se detectaron en Rada Sur 2?",
+    "contexto": {
+      "Industrial Ship": 52,
+      "Cruise Ship": 8,
+      "Sailboat": 36,
+      "Human Powered Boat": 57,
+      "Motorboat": 66
+    },
+    "what_answer": "Sailboat",
+    "respuesta_esperada": "36"
+  },
+  {
+    "id": "mar_test_ext_032",
+    "pregunta": "¿Qué tipo de barco tuvo el menor número de detecciones en Banco de Ensayos?",
+    "contexto": {
+      "Industrial Ship": 19,
+      "Cruise Ship": 97,
+      "Sailboat": 51,
+      "Human Powered Boat": 19,
+      "Motorboat": 21
+    },
+    "what_answer": "minimo",
+    "respuesta_esperada": "Industrial Ship"
+  },
+  {
+    "id": "mar_test_ext_033",
+    "pregunta": "¿Cuál fue la mediana de detecciones en Rada Sur 2?",
+    "contexto": {
+      "Industrial Ship": 93,
+      "Cruise Ship": 93,
+      "Sailboat": 100,
+      "Human Powered Boat": 14,
+      "Motorboat": 12
+    },
+    "what_answer": "mediana",
+    "respuesta_esperada": "93"
+  },
+  {
+    "id": "mar_test_ext_034",
+    "pregunta": "¿Qué tipo de barco tuvo el menor número de detecciones en Banco de Ensayos?",
+    "contexto": {
+      "Industrial Ship": 32,
+      "Cruise Ship": 83,
+      "Sailboat": 45,
+      "Human Powered Boat": 72,
+      "Motorboat": 17
+    },
+    "what_answer": "minimo",
+    "respuesta_esperada": "Motorboat"
+  },
+  {
+    "id": "mar_test_ext_035",
+    "pregunta": "¿Qué tipo de barco tuvo el menor número de detecciones en Rada Sur 1?",
+    "contexto": {
+      "Industrial Ship": 57,
+      "Cruise Ship": 48,
+      "Sailboat": 99,
+      "Human Powered Boat": 19,
+      "Motorboat": 14
+    },
+    "what_answer": "minimo",
+    "respuesta_esperada": "Motorboat"
+  },
+  {
+    "id": "mar_test_ext_036",
+    "pregunta": "¿Qué tipo de detección fue la más frecuente en Rada Sur 2?",
+    "contexto": {
+      "Industrial Ship": 82,
+      "Cruise Ship": 14,
+      "Sailboat": 59,
+      "Human Powered Boat": 51,
+      "Motorboat": 52
+    },
+    "what_answer": "maximo",
+    "respuesta_esperada": "Industrial Ship"
+  },
+  {
+    "id": "mar_test_ext_037",
+    "pregunta": "¿Cuál fue la media de detecciones por tipo en Rada Sur LP?",
+    "contexto": {
+      "Industrial Ship": 53,
+      "Cruise Ship": 0,
+      "Sailboat": 35,
+      "Human Powered Boat": 79,
+      "Motorboat": 60
+    },
+    "what_answer": "media",
+    "respuesta_esperada": "45.4"
+  },
+  {
+    "id": "mar_test_ext_038",
+    "pregunta": "¿Cuál fue la mediana de detecciones en Rada Sur 1?",
+    "contexto": {
+      "Industrial Ship": 8,
+      "Cruise Ship": 41,
+      "Sailboat": 93,
+      "Human Powered Boat": 63,
+      "Motorboat": 12
+    },
+    "what_answer": "mediana",
+    "respuesta_esperada": "41"
+  },
+  {
+    "id": "mar_test_ext_039",
+    "pregunta": "¿Qué tipo de detección fue la más frecuente en Rada Sur LP?",
+    "contexto": {
+      "Industrial Ship": 31,
+      "Cruise Ship": 65,
+      "Sailboat": 66,
+      "Human Powered Boat": 6,
+      "Motorboat": 74
+    },
+    "what_answer": "maximo",
+    "respuesta_esperada": "Motorboat"
+  },
+  {
+    "id": "mar_test_ext_040",
+    "pregunta": "¿Cuál fue el total de barcos detectados en Proximidad Plataforma?",
+    "contexto": {
+      "Industrial Ship": 78,
+      "Cruise Ship": 40,
+      "Sailboat": 5,
+      "Human Powered Boat": 25,
+      "Motorboat": 20
+    },
+    "what_answer": "total",
+    "respuesta_esperada": "168"
+  },
+  {
+    "id": "mar_test_ext_041",
+    "pregunta": "¿Qué tipo de detección fue la más frecuente en Rada Sur LP?",
+    "contexto": {
+      "Industrial Ship": 63,
+      "Cruise Ship": 78,
+      "Sailboat": 80,
+      "Human Powered Boat": 27,
+      "Motorboat": 29
+    },
+    "what_answer": "maximo",
+    "respuesta_esperada": "Sailboat"
+  },
+  {
+    "id": "mar_test_ext_042",
+    "pregunta": "¿Cuál fue la media de detecciones por tipo en Rada Sur LP?",
+    "contexto": {
+      "Industrial Ship": 53,
+      "Cruise Ship": 87,
+      "Sailboat": 14,
+      "Human Powered Boat": 59,
+      "Motorboat": 5
+    },
+    "what_answer": "media",
+    "respuesta_esperada": "43.6"
+  },
+  {
+    "id": "mar_test_ext_043",
+    "pregunta": "¿Qué tipo de barco tuvo el menor número de detecciones en Rada Sur 2?",
+    "contexto": {
+      "Industrial Ship": 23,
+      "Cruise Ship": 89,
+      "Sailboat": 6,
+      "Human Powered Boat": 16,
+      "Motorboat": 68
+    },
+    "what_answer": "minimo",
+    "respuesta_esperada": "Sailboat"
+  },
+  {
+    "id": "mar_test_ext_044",
+    "pregunta": "¿Qué tipo de barco tuvo el menor número de detecciones en Rada Sur LP?",
+    "contexto": {
+      "Industrial Ship": 100,
+      "Cruise Ship": 17,
+      "Sailboat": 86,
+      "Human Powered Boat": 87,
+      "Motorboat": 68
+    },
+    "what_answer": "minimo",
+    "respuesta_esperada": "Cruise Ship"
+  },
+  {
+    "id": "mar_test_ext_045",
+    "pregunta": "¿Cuál fue la mediana de detecciones en Rada Sur 2?",
+    "contexto": {
+      "Industrial Ship": 98,
+      "Cruise Ship": 4,
+      "Sailboat": 48,
+      "Human Powered Boat": 53,
+      "Motorboat": 58
+    },
+    "what_answer": "mediana",
+    "respuesta_esperada": "53"
+  },
+  {
+    "id": "mar_test_ext_046",
+    "pregunta": "¿Cuál fue la mediana de detecciones en Rada Sur 1?",
+    "contexto": {
+      "Industrial Ship": 59,
+      "Cruise Ship": 34,
+      "Sailboat": 80,
+      "Human Powered Boat": 86,
+      "Motorboat": 70
+    },
+    "what_answer": "mediana",
+    "respuesta_esperada": "70"
+  },
+  {
+    "id": "mar_test_ext_047",
+    "pregunta": "¿Cuál fue la media de detecciones por tipo en Proximidad Plataforma?",
+    "contexto": {
+      "Industrial Ship": 42,
+      "Cruise Ship": 2,
+      "Sailboat": 15,
+      "Human Powered Boat": 89,
+      "Motorboat": 34
+    },
+    "what_answer": "media",
+    "respuesta_esperada": "36.4"
+  },
+  {
+    "id": "mar_test_ext_048",
+    "pregunta": "¿Cuántos Motorboat se detectaron en Rada Sur LP?",
+    "contexto": {
+      "Industrial Ship": 43,
+      "Cruise Ship": 35,
+      "Sailboat": 78,
+      "Human Powered Boat": 72,
+      "Motorboat": 74
+    },
+    "what_answer": "Motorboat",
+    "respuesta_esperada": "74"
+  },
+  {
+    "id": "mar_test_ext_049",
+    "pregunta": "¿Cuál fue la media de detecciones por tipo en Rada Sur 1?",
+    "contexto": {
+      "Industrial Ship": 63,
+      "Cruise Ship": 19,
+      "Sailboat": 3,
+      "Human Powered Boat": 68,
+      "Motorboat": 91
+    },
+    "what_answer": "media",
+    "respuesta_esperada": "48.8"
+  },
+  {
+    "id": "mar_test_ext_050",
+    "pregunta": "¿Qué tipo de barco tuvo el menor número de detecciones en Banco de Ensayos?",
+    "contexto": {
+      "Industrial Ship": 68,
+      "Cruise Ship": 1,
+      "Sailboat": 56,
+      "Human Powered Boat": 49,
+      "Motorboat": 73
+    },
+    "what_answer": "minimo",
+    "respuesta_esperada": "Cruise Ship"
+  }
+]

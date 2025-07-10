@@ -1,0 +1,5 @@
+{
+    "api-calls": {
+        "api-call-1": "https://www2.smartcoast.info/api/v2/task/[1157,1174,1150,1217]/metadataChart?format=plain/json&query=// [{\"where\": {\"field\": \"data->outputs->model_name\", \"operator\": \"=\", \"data\": \"yolo-v7-boat-categorization\"}},{\"where\":{\"field\":\"metadata.timestamp\",\"operator\":\"=\",\"data\":\"2025-02-19T12:25:17.591Z\"}},{\"where\":{\"field\":\"metadata.type_id\", \"operator\":\"eq\",\"data\":\"4\"}},{\"orderBy\":\"metadata.timestamp\"}]"
+    }
+}
